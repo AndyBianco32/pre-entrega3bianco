@@ -1,0 +1,1004 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+/* ///////////ESTILOS DE HEADER/////////// */
+
+#header{
+    width: 100%;
+    /* height: 630px; */
+    min-height: 100vh;
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+}
+
+.headerInicio{
+    background-image: url(../IMG/1PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerRazas{
+    background-image: url(../IMG/2PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerSalud{
+    background-image: url(../IMG/3PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerEntrenamiento{
+    background-image: url(../IMG/4PAG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.headerCuriosidades{
+    background-image: url(../IMG/FINAL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.nav img, .nav a, .nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+}
+
+li, a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a {
+    margin-left: 18px;
+    font-size: 25px;
+    color: black;
+}
+
+.nav ul li a:hover {
+    font-size: 32px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.imgLogo {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 400px;  */
+}
+
+/* /////////ESTILOS SECCION DEL HEADER///////////// */
+
+#portadaPrincipal {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    
+}
+.tituloPortadaInicio {
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 27px;
+    color: black;
+}
+
+.primerParrafoInicio {
+    /* border: 1px solid black; */
+    height: 230px;
+    width: 310px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+}
+
+.tituloPortadaRazas{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.primerParrafoRazas{
+    /* border: 1px solid black; */
+    height: 280px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 18px;
+    text-align:center;  
+}
+
+.tituloPortadaSalud{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 28px;
+}
+.primerParrafoSalud{
+  /* border: 1px solid black; */
+  height: 250px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: 18px;
+  text-align: start;  
+}
+.tituloPortadaEntrenamiento{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.primerParrafoEntrenamiento{
+    /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px;
+  font-size: 20px;
+  text-align: start;  
+}
+.tituloPortadaCuriosidades{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.primerParrafoCuriosidades{
+    /* border: 1px solid black; */
+  height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px;
+  font-size: 20px;
+  text-align: start; 
+}
+
+
+/* //////////////////////////ESTILOS DEL MAIN////////////////////////// 
+/////////////////////////////////////////////////////////////////////*/
+
+
+/*/////// estilos de secciones y articulo Inicio ////////*/
+
+#seccionPrincipalHistoria {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.historia-introduccion {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: rgb(217, 217, 217);
+}
+.hero-image-introduccion{
+    min-height: 100vh;
+    background-image:url(../img/huella1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(6, 6, 5);
+    background-repeat: no-repeat;
+}
+.hero-image-desenlance{
+    /* background-color: rgb(201, 188, 157); */
+    background-color: rgb(226, 219, 202);
+}
+
+.hero-image-introduccion div{
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 230, 218, 0.47);
+    /* 0.75 del bg es la opacidad */
+    text-align: center;
+}
+.hero-image-introduccion h2{
+    font-size: 28px;
+    padding: 10px;
+}
+/* .hero-image h2:hover{
+    font-size: 50px;
+    transition: 1s;
+} */
+.hero-image-introduccion p{
+    font-size: 15px;
+    margin: 4px 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+/* .hero-image p:hover{
+    font-size: 31px;
+    transition: 0.1s;
+} */
+
+.historia-desarrollo {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: rgb(226, 219, 202);
+    /* background-image:url(../img/huella1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(6, 6, 5);
+    background-repeat: no-repeat; */
+}
+.carousel-inner div img{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 20px;
+}
+
+.hero-image-desenlance h2{
+    font-size: 12px;
+    text-align: center;
+   }
+   .hero-image-desenlance p{
+       font-size: 11px;
+       text-align: center;
+   }
+
+.historia-desenlace{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5% 18% 18% 18% 18% 18% 5%;
+    grid-template-areas:
+    "header                header"
+    "actualidad-alemania   actualidad-alemania"
+    "actualidad-carreras   actualidad-carreras"
+    "actualidad-cofap      actualidad-cofap"
+    "actualidad-arlequin   actualidad-arlequin"
+    "actualidad-picasso    actualidad-picasso"
+    "footer-desenlace      footer-desenlace"
+    ;
+}
+/* .historia-desenlace > *{
+    border: thin solid #222;
+  } */
+.header{
+    grid-area: header;
+  }
+.actualidad-alemania{
+    grid-area: actualidad-alemania;
+  }
+.actualidad-carreras{
+    grid-area: actualidad-carreras;
+}
+.actualidad-cofap{
+    grid-area: actualidad-cofap;
+}
+.actualidad-arlequin{
+    grid-area: actualidad-arlequin;
+}
+.actualidad-picasso{
+    grid-area: actualidad-picasso;
+}
+.footer-desenlace{
+    grid-area: footer-desenlace;
+}
+
+.header,
+.actualidad-alemania,
+.actualidad-carreras,
+.actualidad-cofap,
+.actualidad-arlequin,
+.actualidad-picasso,
+.footer-desenlace
+{
+    background-color: white;
+    margin: 3px;
+    border-radius: 20px;
+}
+
+/* ///////////////estilos de secciones y articulo Raza ////////////// */
+
+#seccionPrincipalRaza{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.raza2, .raza4, .raza6{
+    flex-direction: row-reverse;
+}
+.div-img-raza img {
+    width: 280px;
+    height: 200px;
+    /* border: thin solid black; */
+}
+.div-texto-raza1,
+.div-texto-raza2,
+.div-texto-raza3,
+.div-texto-raza4,
+.div-texto-raza5,
+.div-texto-raza6,
+.div-texto-raza7{
+    width: 900px;
+    /* border: thin solid black; */
+
+}
+
+.raza1{
+    background-color: rgb(217, 217, 217);
+}
+.raza2{
+    background-color: rgb(201, 188, 157)
+}
+.raza3{
+    background-color: rgb(217, 217, 217);
+}
+.raza4{
+    background-color: rgb(254, 253, 252);
+}
+.raza5{
+    background-color: rgb(217, 217, 217);
+}
+.raza6{
+    background-color: rgb(242, 241, 241);
+}
+.raza7{
+    background-color: rgb(217, 217, 217);
+}
+
+/* /////////////estilos de secciones y articulo Salud ////////////////*/
+
+#mainSalud{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: column;
+    /* flex-wrap: wrap; */
+    background-image:url(../img/fondoMainSalud.jpg);
+    background-position: center;
+    background-size: cover;
+    /* color: rgb(6, 6, 5); */
+    background-repeat: no-repeat;
+}
+
+.seccionPrimeraSalud{
+    height: 100%;
+    width: 85%;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(217, 217, 217); */
+}
+
+.articulo-nutricion{
+    /* border: thin solid black; */
+    margin: 40px ;
+    width: 80%;
+}
+.nutricion-titulo{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.nutricion-texto{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+    
+.seccionSegundaSalud{
+    
+    height: 40%;
+    width: 65%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(201, 188, 157) */
+}
+.alimentacion-opciones-titulo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.alimentacion-opciones{
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.lista-opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.lista-opciones li{
+    padding-top: 15px;
+}
+.icono-alimentacion{
+    margin-bottom: 20px;
+}
+
+
+.seccionTerceraSalud{
+    height: 60%;
+    width: 90%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.img-alimentacion{
+    width: 90%;
+    /* height: 450px; */
+    margin: 0px 50px;
+}
+
+.alimentos-evitar{
+    /* border: thin solid black; */
+    margin: 30px 50px;
+
+}
+.alimentos-evitar-titulo{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.alimentos-evitar-texto{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* estilos de secciones y articulo Entrenamiento */
+
+#mainEntrenamiento{
+    width: 100%;
+    height: 1460px;
+    border: 1px solid black;
+    
+}
+
+#seccionPrimeraEntrenamiento{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+    background-color: rgb(217, 217, 217);
+}
+#seccionSegundaEntrenamiento{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    background-color: rgb(201, 188, 157)
+}
+
+/* estilos de secciones y articulo Curiosidades */
+
+#mainCuriosidades{
+    width: 100%;
+    height: 1520px;
+    display: flex;
+}
+#seccionPrimeraCuriosidades{
+    width:60% ;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.articulo1Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+.articulo2Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+
+#seccionSegundaCuriosidades{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.asideCuriosidades{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+    padding: 35px;
+}
+
+/* ///////////estilos de los div////////// */
+
+.divInicio{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1240px;
+    margin-top: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divRazas{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1250px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divSalud{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 790px;
+    margin-top: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divEntrenamiento{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 1250px;
+    margin-top: 940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divCuriosidades{
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////ESTILOS DEL FOOTER ///////////*/
+
+#footer{
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-around; */
+    background-color: rgb(226, 219, 202);    
+}
+
+/* footer logo */
+.footerlcons{
+    display: block;
+    font-size: 15px;
+    text-align: center;    
+}
+.imgIconsDog{
+    width: 70px;
+    height: 70px;
+}
+ 
+/* footer email */
+.footerEmail{
+    font-size: 15px;
+    text-align: center;    
+}
+
+/* footer redes */
+.footerRedes {
+    font-size: 15px;
+    text-align: center;   
+}
+
+.imgLogoFace, .imgLogoInst, .imgLogoPint {
+    width: 50px;
+    height: 50px;
+}
+    
+
+/*///////////////// MEDIAS QUERIES //////////////////////*/
+
+/* Small */
+    @media(min-width:576px){
+            
+            
+    }
+
+ /* Medium */
+    @media(min-width:768px){
+            
+    }
+
+/* Large */
+    @media(min-width:992px){
+            
+    }
+
+  /* Extra-Large */
+    @media(min-width:1200px){
+    
+    .nav {
+        width: 100%;
+        height: 14%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav img, .nav a, .nav ul {
+        display: inline-block;   
+    }
+        
+    li, a {
+        display: inline-block;
+        list-style: none;
+        font-style: none;
+        text-decoration: none;
+        color: black;
+    }
+        
+    /* .nav ul li a {
+        margin-left: 18px;
+        font-size: 25px;
+        color: black;
+    } */
+        
+    /* .nav ul li a:hover {
+        font-size: 32px;
+        transition: 1s;
+        font-weight: bold;
+    }
+        
+    .imgLogo {
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+        margin-left: 25px;
+    } */
+        
+    .navLinks {
+        display: flex;
+        margin-left: 400px;  
+    }
+
+    .tituloPortadaInicio {
+        /* padding-top: 50px;
+        padding-left: 80px; */
+        font-size: 32px;
+        /* color: black; */
+    }
+    .primerParrafoInicio {
+        /* border: 1px solid black; */
+        height: 250px;
+        width: 350px;
+        margin-top: 70px;
+        margin-left: 100px;
+        font-size: 25px;
+        /* text-align: center;
+        color: black; */
+    }
+
+    .tituloPortadaRazas{
+    /* margin-top: 50px; */
+    margin-left: 900px;
+    font-size: 32px;
+}
+    .primerParrafoRazas{
+    /* border: 1px solid black; */
+    /* height: 250px;
+    width: 350px;
+    margin-top: 70px; */
+    margin-left: 900px;
+    font-size: 25px;
+    /* text-align:center;   */
+}
+
+.tituloPortadaSalud{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 32px;
+}
+.primerParrafoSalud{
+  /* border: 1px solid black; */
+  height: 250px;
+  width: 350px;
+  margin-top: 70px;
+  margin-left: 75px;
+  font-size: 25px;
+  /* text-align: start;   */
+}
+
+.tituloPortadaEntrenamiento{
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    font-size: 32px;
+}
+.primerParrafoEntrenamiento{
+    /* border: 1px solid black; */
+  /* height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px; */
+  font-size: 25px;
+  /* text-align: start;   */
+}
+.tituloPortadaCuriosidades{
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    font-size: 32px;
+}
+.primerParrafoCuriosidades{
+    /* border: 1px solid black; */
+  /* height: 300px;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 55px; */
+  font-size: 25px;
+  /* text-align: start;  */
+}
+
+.hero-image-introduccion h2{
+    font-size: 45px;
+    padding: 20px;
+}
+/* .hero-image h2:hover{
+    font-size: 50px;
+    transition: 1s;
+} */
+.hero-image-introduccion p{
+    font-size: 25px;
+    margin: 15px 100px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+/* .hero-image p:hover{
+    font-size: 31px;
+    transition: 0.1s;
+} */
+.carousel-inner div img{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 190px;
+}
+
+
+.hero-image-desenlance h2{
+    font-size: 20px;
+    text-align: center;
+   }
+.hero-image-desenlance p{
+       font-size: 18px;
+       text-align: center;
+   }
+
+.historia-desenlace{
+    /* margin: 0;
+    width: 100%;
+    height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10% 40% 40% 10%;
+    grid-template-areas:
+    "header                header                header             header"
+    "actualidad-alemania   actualidad-carreras   actualidad-cofap   actualidad-arlequin"
+    "actualidad-alemania   actualidad-picasso    actualidad-picasso actualidad-picasso"
+    "footer-desenlace      footer-desenlace      footer-desenlace   footer-desenlace"
+    ;
+}
+/* .historia-desenlace > *{
+    border: thin solid #222;
+  } */
+.header{
+    grid-area: header;
+  }
+.actualidad-alemania{
+    grid-area: actualidad-alemania;
+  }
+.actualidad-carreras{
+    grid-area: actualidad-carreras;
+}
+.actualidad-cofap{
+    grid-area: actualidad-cofap;
+}
+.actualidad-arlequin{
+    grid-area: actualidad-arlequin;
+}
+.actualidad-picasso{
+    grid-area: actualidad-picasso;
+}
+.footer-desenlace{
+    grid-area: footer-desenlace;
+}
+
+.header,
+.actualidad-alemania,
+.actualidad-carreras,
+.actualidad-cofap,
+.actualidad-arlequin,
+.actualidad-picasso,
+.footer-desenlace
+{
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#seccionPrincipalRaza{
+    width: 100%;
+    height: 1640px;
+    border: 1px solid black;
+}
+
+.raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
+    width: 100%;
+    height: 14.3%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-img-raza img {
+    width: 280px;
+    height: 200px;
+}
+.div-texto-raza1,
+.div-texto-raza2,
+.div-texto-raza3,
+.div-texto-raza4,
+.div-texto-raza5,
+.div-texto-raza6,
+.div-texto-raza7{
+    width: 900px;
+
+}
+
+#mainSalud{
+    width: 100%;
+    height: 1460px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    /* background-image:url(../img/fondoMainSalud.jpg);
+    background-position: center;
+    background-size: cover; */
+    /* color: rgb(6, 6, 5); */
+    /* background-repeat: no-repeat; */
+
+}
+.seccionPrimeraSalud{
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid black; */
+    /* margin: 0;
+    padding: 0; */
+    /* background-color: rgb(217, 217, 217); */
+}
+
+.nutricion-titulo{
+    font-size: 26px;
+    margin: 20px 0px;
+}
+.nutricion-texto{
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+
+.alimentacion-opciones{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alimentacion-opciones-titulo{
+    font-size: 26px;
+    /* text-align: center;
+    margin-top: 50px; */
+}
+.seccionTerceraSalud{
+    height: 60%;
+    width: 65%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(255, 255, 255); */
+}
+.alimentos-evitar-titulo{
+    font-size: 26px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.alimentos-evitar-texto{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#footer{
+    margin-top: auto;
+    width: 100%;
+    height: 162px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(226, 219, 202);    
+}
+    }

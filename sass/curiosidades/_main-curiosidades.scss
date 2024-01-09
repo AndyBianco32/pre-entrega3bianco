@@ -1,0 +1,51 @@
+/* Estilos Main - Secciones y articulo Curiosidades */
+
+#mainCuriosidades{
+    width: 100%;
+    height: 1520px;
+    display: flex;
+}
+#seccionPrimeraCuriosidades{
+    width:60% ;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.articulo1Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+.articulo2Curiosidades{
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+}
+
+#seccionSegundaCuriosidades{
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+}
+.asideCuriosidades{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(199, 186, 156);
+    padding: 35px;
+}

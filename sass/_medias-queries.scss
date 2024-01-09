@@ -1,0 +1,330 @@
+/*///////////////// MEDIAS QUERIES //////////////////////*/
+
+/* Small */
+@media(min-width:576px){
+            
+            
+}
+
+/* Medium */
+@media(min-width:768px){
+        
+}
+
+/* Large */
+@media(min-width:992px){
+        
+}
+
+/* Extra-Large */
+@media(min-width:1200px){
+
+.nav {
+    width: 100%;
+    height: 14%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav img, .nav a, .nav ul {
+    display: inline-block;   
+}
+    
+li, a {
+    display: inline-block;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+    
+/* .nav ul li a {
+    margin-left: 18px;
+    font-size: 25px;
+    color: black;
+} */
+    
+/* .nav ul li a:hover {
+    font-size: 32px;
+    transition: 1s;
+    font-weight: bold;
+}
+    
+.imgLogo {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 25px;
+} */
+    
+.navLinks {
+    display: flex;
+    margin-left: 400px;  
+}
+
+.tituloPortadaInicio {
+    /* padding-top: 50px;
+    padding-left: 80px; */
+    font-size: 32px;
+    /* color: black; */
+}
+.primerParrafoInicio {
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 25px;
+    /* text-align: center;
+    color: black; */
+}
+
+.tituloPortadaRazas{
+/* margin-top: 50px; */
+margin-left: 900px;
+font-size: 32px;
+}
+.primerParrafoRazas{
+/* border: 1px solid black; */
+/* height: 250px;
+width: 350px;
+margin-top: 70px; */
+margin-left: 900px;
+font-size: 25px;
+/* text-align:center;   */
+}
+
+.tituloPortadaSalud{
+margin-top: 50px;
+margin-left: 70px;
+font-size: 32px;
+}
+.primerParrafoSalud{
+/* border: 1px solid black; */
+height: 250px;
+width: 350px;
+margin-top: 70px;
+margin-left: 75px;
+font-size: 25px;
+/* text-align: start;   */
+}
+
+.tituloPortadaEntrenamiento{
+/* margin-top: 50px;
+margin-left: 50px; */
+font-size: 32px;
+}
+.primerParrafoEntrenamiento{
+/* border: 1px solid black; */
+/* height: 300px;
+width: 300px;
+margin-top: 70px;
+margin-left: 55px; */
+font-size: 25px;
+/* text-align: start;   */
+}
+.tituloPortadaCuriosidades{
+/* margin-top: 50px;
+margin-left: 50px; */
+font-size: 32px;
+}
+.primerParrafoCuriosidades{
+/* border: 1px solid black; */
+/* height: 300px;
+width: 300px;
+margin-top: 70px;
+margin-left: 55px; */
+font-size: 25px;
+/* text-align: start;  */
+}
+
+.hero-image-introduccion h2{
+font-size: 45px;
+padding: 20px;
+}
+/* .hero-image h2:hover{
+font-size: 50px;
+transition: 1s;
+} */
+.hero-image-introduccion p{
+font-size: 25px;
+margin: 15px 100px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+/* .hero-image p:hover{
+font-size: 31px;
+transition: 0.1s;
+} */
+.carousel-inner div img{
+width: 100%;
+height: 100vh;
+padding: 20px 190px;
+}
+
+
+.hero-image-desenlance h2{
+font-size: 20px;
+text-align: center;
+}
+.hero-image-desenlance p{
+   font-size: 18px;
+   text-align: center;
+}
+
+.historia-desenlace{
+/* margin: 0;
+width: 100%;
+height: 100vh; */
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 10% 40% 40% 10%;
+grid-template-areas:
+"header                header                header             header"
+"actualidad-alemania   actualidad-carreras   actualidad-cofap   actualidad-arlequin"
+"actualidad-alemania   actualidad-picasso    actualidad-picasso actualidad-picasso"
+"footer-desenlace      footer-desenlace      footer-desenlace   footer-desenlace"
+;
+}
+/* .historia-desenlace > *{
+border: thin solid #222;
+} */
+.header{
+grid-area: header;
+}
+.actualidad-alemania{
+grid-area: actualidad-alemania;
+}
+.actualidad-carreras{
+grid-area: actualidad-carreras;
+}
+.actualidad-cofap{
+grid-area: actualidad-cofap;
+}
+.actualidad-arlequin{
+grid-area: actualidad-arlequin;
+}
+.actualidad-picasso{
+grid-area: actualidad-picasso;
+}
+.footer-desenlace{
+grid-area: footer-desenlace;
+}
+
+.header,
+.actualidad-alemania,
+.actualidad-carreras,
+.actualidad-cofap,
+.actualidad-arlequin,
+.actualidad-picasso,
+.footer-desenlace
+{
+background-color: white;
+margin: 20px;
+border-radius: 20px;
+}
+
+#seccionPrincipalRaza{
+width: 100%;
+height: 1640px;
+border: 1px solid black;
+}
+
+.raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
+width: 100%;
+height: 14.3%;
+border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+.div-img-raza img {
+width: 280px;
+height: 200px;
+}
+.div-texto-raza1,
+.div-texto-raza2,
+.div-texto-raza3,
+.div-texto-raza4,
+.div-texto-raza5,
+.div-texto-raza6,
+.div-texto-raza7{
+width: 900px;
+
+}
+
+#mainSalud{
+width: 100%;
+height: 1460px;
+/* border: 1px solid black; */
+display: flex;
+flex-flow: column;
+flex-wrap: wrap;
+/* background-image:url(../img/fondoMainSalud.jpg);
+background-position: center;
+background-size: cover; */
+/* color: rgb(6, 6, 5); */
+/* background-repeat: no-repeat; */
+
+}
+.seccionPrimeraSalud{
+height: 100%;
+width: 35%;
+/* border: 1px solid black; */
+/* margin: 0;
+padding: 0; */
+/* background-color: rgb(217, 217, 217); */
+}
+
+.nutricion-titulo{
+font-size: 26px;
+margin: 20px 0px;
+}
+.nutricion-texto{
+font-size: 18px;
+letter-spacing: 0.7px;
+}
+
+.alimentacion-opciones{
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.alimentacion-opciones-titulo{
+font-size: 26px;
+/* text-align: center;
+margin-top: 50px; */
+}
+.seccionTerceraSalud{
+height: 60%;
+width: 65%;
+/* border: 1px solid black; */
+/* background-color: rgb(255, 255, 255); */
+}
+.alimentos-evitar-titulo{
+font-size: 26px;
+text-align: center;
+margin: 10px 0px;
+}
+.alimentos-evitar-texto{
+font-size: 18px;
+margin-top: 20px;
+}
+
+#footer{
+margin-top: auto;
+width: 100%;
+height: 162px;
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: rgb(226, 219, 202);    
+}
+
+}

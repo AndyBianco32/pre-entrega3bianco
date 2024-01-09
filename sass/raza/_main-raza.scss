@@ -1,0 +1,59 @@
+/* ///////////////Estilos Main - Secciones y articulo Raza ////////////// */
+
+#seccionPrincipalRaza{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.raza2, .raza4, .raza6{
+    flex-direction: row-reverse;
+}
+.div-img-raza img {
+    width: 280px;
+    height: 200px;
+    /* border: thin solid black; */
+}
+.div-texto-raza1,
+.div-texto-raza2,
+.div-texto-raza3,
+.div-texto-raza4,
+.div-texto-raza5,
+.div-texto-raza6,
+.div-texto-raza7{
+    width: 900px;
+    /* border: thin solid black; */
+
+}
+
+.raza1{
+    background-color: rgb(217, 217, 217);
+}
+.raza2{
+    background-color: rgb(201, 188, 157)
+}
+.raza3{
+    background-color: rgb(217, 217, 217);
+}
+.raza4{
+    background-color: rgb(254, 253, 252);
+}
+.raza5{
+    background-color: rgb(217, 217, 217);
+}
+.raza6{
+    background-color: rgb(242, 241, 241);
+}
+.raza7{
+    background-color: rgb(217, 217, 217);
+}

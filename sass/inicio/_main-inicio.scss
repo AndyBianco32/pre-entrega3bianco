@@ -1,0 +1,135 @@
+/*/////// Estilos Main - Secciones y articulo Inicio ////////*/
+
+#seccionPrincipalHistoria {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.historia-introduccion {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: rgb(217, 217, 217);
+}
+.hero-image-introduccion{
+    min-height: 100vh;
+    background-image:url(../img/huella1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(6, 6, 5);
+    background-repeat: no-repeat;
+}
+.hero-image-desenlance{
+    /* background-color: rgb(201, 188, 157); */
+    background-color: rgb(226, 219, 202);
+}
+
+.hero-image-introduccion div{
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 230, 218, 0.47);
+    /* 0.75 del bg es la opacidad */
+    text-align: center;
+}
+.hero-image-introduccion h2{
+    font-size: 28px;
+    padding: 10px;
+}
+/* .hero-image h2:hover{
+    font-size: 50px;
+    transition: 1s;
+} */
+.hero-image-introduccion p{
+    font-size: 15px;
+    margin: 4px 10px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+/* .hero-image p:hover{
+    font-size: 31px;
+    transition: 0.1s;
+} */
+
+.historia-desarrollo {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: rgb(226, 219, 202);
+    /* background-image:url(../img/huella1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(6, 6, 5);
+    background-repeat: no-repeat; */
+}
+.carousel-inner div img{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 20px;
+}
+
+.hero-image-desenlance h2{
+    font-size: 12px;
+    text-align: center;
+   }
+   .hero-image-desenlance p{
+       font-size: 11px;
+       text-align: center;
+   }
+
+.historia-desenlace{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 5% 18% 18% 18% 18% 18% 5%;
+    grid-template-areas:
+    "header                header"
+    "actualidad-alemania   actualidad-alemania"
+    "actualidad-carreras   actualidad-carreras"
+    "actualidad-cofap      actualidad-cofap"
+    "actualidad-arlequin   actualidad-arlequin"
+    "actualidad-picasso    actualidad-picasso"
+    "footer-desenlace      footer-desenlace"
+    ;
+}
+/* .historia-desenlace > *{
+    border: thin solid #222;
+  } */
+.header{
+    grid-area: header;
+  }
+.actualidad-alemania{
+    grid-area: actualidad-alemania;
+  }
+.actualidad-carreras{
+    grid-area: actualidad-carreras;
+}
+.actualidad-cofap{
+    grid-area: actualidad-cofap;
+}
+.actualidad-arlequin{
+    grid-area: actualidad-arlequin;
+}
+.actualidad-picasso{
+    grid-area: actualidad-picasso;
+}
+.footer-desenlace{
+    grid-area: footer-desenlace;
+}
+
+.header,
+.actualidad-alemania,
+.actualidad-carreras,
+.actualidad-cofap,
+.actualidad-arlequin,
+.actualidad-picasso,
+.footer-desenlace
+{
+    background-color: white;
+    margin: 3px;
+    border-radius: 20px;
+}

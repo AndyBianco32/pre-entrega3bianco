@@ -1,0 +1,99 @@
+/* /////////////Estilos Main - Secciones y articulo Salud ////////////////*/
+
+#mainSalud{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: column;
+    /* flex-wrap: wrap; */
+    background-image:url(../img/fondoMainSalud.jpg);
+    background-position: center;
+    background-size: cover;
+    /* color: rgb(6, 6, 5); */
+    background-repeat: no-repeat;
+}
+
+.seccionPrimeraSalud{
+    height: 100%;
+    width: 85%;
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(217, 217, 217); */
+}
+
+.articulo-nutricion{
+    /* border: thin solid black; */
+    margin: 40px ;
+    width: 80%;
+}
+.nutricion-titulo{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.nutricion-texto{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+    
+.seccionSegundaSalud{
+    
+    height: 40%;
+    width: 65%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(201, 188, 157) */
+}
+.alimentacion-opciones-titulo{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.alimentacion-opciones{
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.lista-opciones{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.lista-opciones li{
+    padding-top: 15px;
+}
+.icono-alimentacion{
+    margin-bottom: 20px;
+}
+
+
+.seccionTerceraSalud{
+    height: 60%;
+    width: 90%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.img-alimentacion{
+    width: 90%;
+    /* height: 450px; */
+    margin: 0px 50px;
+}
+
+.alimentos-evitar{
+    /* border: thin solid black; */
+    margin: 30px 50px;
+
+}
+.alimentos-evitar-titulo{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.alimentos-evitar-texto{
+    font-size: 16px;
+    margin-top: 20px;
+}

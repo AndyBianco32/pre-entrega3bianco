@@ -88,6 +88,7 @@ li, a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  list-style: none;
   font-style: none;
   text-decoration: none;
   color: black;
@@ -181,31 +182,32 @@ li, a {
 .tituloPortadaEntrenamiento {
   margin-top: 50px;
   margin-left: 50px;
-  font-size: 28px;
+  font-size: 20px;
+  color: black;
 }
 
 .primerParrafoEntrenamiento {
   /* border: 1px solid black; */
-  height: 300px;
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 55px;
-  font-size: 20px;
+  height: 250px;
+  width: 270px;
+  margin: 5px 15px;
+  font-size: 18px;
   text-align: start;
+  color: black;
 }
 
 .tituloPortadaCuriosidades {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 50px;
   font-size: 28px;
 }
 
 .primerParrafoCuriosidades {
   /* border: 1px solid black; */
-  height: 300px;
-  width: 300px;
-  margin-top: 70px;
-  margin-left: 55px;
+  height: 280px;
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 25px;
   font-size: 20px;
   text-align: start;
 }
@@ -494,7 +496,6 @@ li, a {
 #mainEntrenamiento {
   width: 100%;
   height: auto;
-  border: 1px solid black;
   background: linear-gradient(180deg, rgb(249, 245, 241) 0%, rgb(235, 214, 182) 43%, rgb(213, 143, 63) 100%);
 }
 
@@ -505,22 +506,23 @@ li, a {
 }
 #seccionPrimeraEntrenamiento .entrenamiento-introduccion {
   border-radius: 20px;
-  width: 70%;
+  width: 80%;
   height: auto;
-  margin: 50px 220px;
+  margin: 40px 40px;
   padding: 30px;
   background-color: white;
 }
 #seccionPrimeraEntrenamiento .entrenamiento-introduccion p {
-  font-size: 18px;
+  font-size: 16px;
+  margin: 0;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .img-entrenamiento-card {
-  width: 300px;
-  height: 300px;
-  margin-left: 180px;
+  width: 120px;
+  height: 120px;
+  margin-left: 60px;
 }
 
 #seccionSegundaEntrenamiento {
@@ -529,54 +531,65 @@ li, a {
   border: 1px solid black;
 }
 #seccionSegundaEntrenamiento .card-entrenamiento {
-  margin: 20px 60px;
-  padding: 60px;
+  margin: 20px 10px;
+  padding: 20px;
 }
 #seccionSegundaEntrenamiento .tips-entrenamiento {
-  border: thin solid rgb(176, 23, 23);
-  margin: 20px 60px;
-  padding: 10px 60px;
+  margin: 20px 10px;
+  padding: 10px 10px;
 }
 #seccionSegundaEntrenamiento .tips-entrenamiento .tips-entrenamiento-ul li {
   box-sizing: content-box;
-  margin: 5px;
-  padding: 5px;
+  margin: 5px 4px;
+  padding: 5px 4px;
   text-align: start;
-  list-style: circle;
 }
 
 /* Estilos Main - Secciones y articulo Curiosidades */
 #mainCuriosidades {
   width: 100%;
-  height: 1520px;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgb(235, 238, 241) 0%, rgb(189, 195, 199) 42%, rgb(44, 62, 80) 100%);
 }
 
 #seccionPrimeraCuriosidades {
-  width: 60%;
+  width: 90%;
   height: 100%;
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(217, 217, 217);
 }
 
-.articulo1Curiosidades {
+.articuloCuriosidades {
   width: 80%;
   height: 40%;
   border: 1px solid black;
   border-radius: 2%;
-  background-color: rgb(199, 186, 156);
+  background-color: rgb(248, 246, 240);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
-
-.articulo2Curiosidades {
-  width: 80%;
-  height: 40%;
+.articuloCuriosidades .articuloCuriosidades-div {
   border: 1px solid black;
-  border-radius: 2%;
-  background-color: rgb(199, 186, 156);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  height: 25%;
+}
+.articuloCuriosidades .articuloCuriosidades-div .articuloCuriosidades-titulo {
+  text-align: center;
+}
+.articuloCuriosidades .articuloCuriosidades-img {
+  width: 250px;
+  height: 200px;
 }
 
 #seccionSegundaCuriosidades {
@@ -588,7 +601,6 @@ li, a {
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(217, 217, 217);
 }
 
 .asideCuriosidades {
@@ -596,7 +608,7 @@ li, a {
   height: 90%;
   border: 1px solid black;
   border-radius: 2%;
-  background-color: rgb(199, 186, 156);
+  background-color: rgb(248, 246, 240);
   padding: 35px;
 }
 
@@ -715,6 +727,7 @@ li, a {
   }
   li, a {
     display: inline-block;
+    list-style: none;
     font-style: none;
     text-decoration: none;
     color: black;
@@ -785,31 +798,29 @@ li, a {
     /* text-align: start;   */
   }
   .tituloPortadaEntrenamiento {
-    /* margin-top: 50px;
-    margin-left: 50px; */
-    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
   }
   .primerParrafoEntrenamiento {
     /* border: 1px solid black; */
-    /* height: 300px;
-    width: 300px;
-    margin-top: 70px;
-    margin-left: 55px; */
-    font-size: 25px;
-    /* text-align: start;   */
+    height: 280px;
+    width: 350px;
+    margin: 50px 55px;
+    font-size: 24px;
   }
   .tituloPortadaCuriosidades {
-    /* margin-top: 50px;
-    margin-left: 50px; */
+    margin-top: 50px;
+    margin-left: 50px;
     font-size: 32px;
   }
   .primerParrafoCuriosidades {
     /* border: 1px solid black; */
-    /* height: 300px;
+    height: 300px;
     width: 300px;
     margin-top: 70px;
-    margin-left: 55px; */
-    font-size: 25px;
+    margin-left: 55px;
+    font-size: 28px;
     /* text-align: start;  */
   }
   .hero-image-introduccion h2 {
@@ -967,6 +978,93 @@ li, a {
   .alimentos-evitar-texto {
     font-size: 18px;
     margin-top: 20px;
+  }
+  #seccionPrimeraEntrenamiento {
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+  }
+  #seccionPrimeraEntrenamiento .entrenamiento-introduccion {
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    margin: 50px 220px;
+    padding: 30px;
+    background-color: white;
+  }
+  #seccionPrimeraEntrenamiento .entrenamiento-introduccion p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .img-entrenamiento-card {
+    width: 300px;
+    height: 300px;
+    margin-left: 180px;
+  }
+  #seccionSegundaEntrenamiento {
+    width: 100%;
+    height: 80%;
+    border: 1px solid black;
+  }
+  #seccionSegundaEntrenamiento .card-entrenamiento {
+    margin: 20px 60px;
+    padding: 60px;
+  }
+  #seccionSegundaEntrenamiento .tips-entrenamiento {
+    margin: 20px 60px;
+    padding: 10px 60px;
+  }
+  #seccionSegundaEntrenamiento .tips-entrenamiento .tips-entrenamiento-ul li {
+    box-sizing: content-box;
+    margin: 5px 35px;
+    padding: 5px 35px;
+    text-align: start;
+  }
+  #mainCuriosidades {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  #seccionPrimeraCuriosidades {
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .articuloCuriosidades {
+    width: 80%;
+    height: 40%;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: rgb(248, 246, 240);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .articuloCuriosidades .articuloCuriosidades-div {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 25%;
+  }
+  .articuloCuriosidades .articuloCuriosidades-div .articuloCuriosidades-titulo {
+    text-align: center;
+  }
+  .articuloCuriosidades-img {
+    width: 550px;
+    height: 400px;
   }
   #footer {
     margin-top: auto;

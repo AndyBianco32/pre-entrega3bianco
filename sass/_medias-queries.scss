@@ -19,6 +19,7 @@
 /* Extra-Large */
 @media(min-width:1200px){
 
+// //////////////////////////////// HEADER ///////////////////////////////
 .nav {
     width: 100%;
     height: 14%;
@@ -139,6 +140,9 @@ font-size: 25px;
 /* text-align: start;  */
 }
 
+// ////////////////////////////// MAIN //////////////////////////////////////
+
+//  ////////////////// MAIN - INICIO ///////////////////////
 .hero-image-introduccion h2{
 font-size: 45px;
 padding: 20px;
@@ -225,6 +229,8 @@ margin: 20px;
 border-radius: 20px;
 }
 
+//  ////////////////// MAIN - RAZA ///////////////////////
+
 #seccionPrincipalRaza{
 width: 100%;
 height: 1640px;
@@ -234,7 +240,7 @@ border: 1px solid black;
 .raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
 width: 100%;
 height: 14.3%;
-border: 1px solid black;
+// border: 1px solid black;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
@@ -254,6 +260,8 @@ height: 200px;
 width: 900px;
 
 }
+
+//  ////////////////// MAIN - SALUD ///////////////////////
 
 #mainSalud{
 width: 100%;
@@ -314,6 +322,8 @@ margin: 10px 0px;
 font-size: 18px;
 margin-top: 20px;
 }
+
+//  ///////////////////////////// FOOTER //////////////////////////////
 
 #footer{
 margin-top: auto;

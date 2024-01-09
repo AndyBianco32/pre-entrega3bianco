@@ -216,6 +216,7 @@ li, a {
   width: 100%;
   height: auto;
   /* border: 1px solid black; */
+  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgba(135, 101, 48, 0.9948354342) 0%, rgb(211, 203, 184) 57%);
 }
 
 .historia-introduccion {
@@ -236,7 +237,6 @@ li, a {
 
 .hero-image-desenlance {
   /* background-color: rgb(201, 188, 157); */
-  background-color: rgb(226, 219, 202);
 }
 
 .hero-image-introduccion div {
@@ -274,7 +274,6 @@ li, a {
   width: 100%;
   height: 100vh;
   /* border: 1px solid black; */
-  background-color: rgb(226, 219, 202);
   /* background-image:url(../img/huella1.jpg);
   background-position: center;
   background-size: cover;
@@ -355,13 +354,12 @@ li, a {
 #seccionPrincipalRaza {
   width: 100%;
   height: auto;
-  border: 1px solid black;
+  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(75, 87, 96) 0%, rgb(228, 225, 220) 78%);
 }
 
 .raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7 {
   width: 100%;
   height: auto;
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -389,34 +387,6 @@ li, a {
   /* border: thin solid black; */
 }
 
-.raza1 {
-  background-color: rgb(217, 217, 217);
-}
-
-.raza2 {
-  background-color: rgb(201, 188, 157);
-}
-
-.raza3 {
-  background-color: rgb(217, 217, 217);
-}
-
-.raza4 {
-  background-color: rgb(254, 253, 252);
-}
-
-.raza5 {
-  background-color: rgb(217, 217, 217);
-}
-
-.raza6 {
-  background-color: rgb(242, 241, 241);
-}
-
-.raza7 {
-  background-color: rgb(217, 217, 217);
-}
-
 /* /////////////Estilos Main - Secciones y articulo Salud ////////////////*/
 #mainSalud {
   width: 100%;
@@ -425,7 +395,7 @@ li, a {
   display: flex;
   flex-flow: column;
   /* flex-wrap: wrap; */
-  background-image: url(../img/fondoMainSalud.jpg);
+  background: linear-gradient(180deg, rgb(130, 151, 201) 0%, rgb(223, 231, 242) 49%, rgb(204, 169, 181) 100%);
   background-position: center;
   background-size: cover;
   /* color: rgb(6, 6, 5); */
@@ -893,7 +863,6 @@ li, a {
   .raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7 {
     width: 100%;
     height: 14.3%;
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

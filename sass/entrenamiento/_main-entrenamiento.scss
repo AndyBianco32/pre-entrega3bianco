@@ -2,20 +2,60 @@
 
 #mainEntrenamiento{
     width: 100%;
-    height: 1460px;
+    height: auto;
     border: 1px solid black;
+    background: linear-gradient(180deg, rgba(249,245,241,1) 0%, rgba(235,214,182,1) 43%, rgba(213,143,63,1) 100%);
     
 }
 
 #seccionPrimeraEntrenamiento{
     width: 100%;
-    height: 30%;
+    height: 20%;
     border: 1px solid black;
-    background-color: rgb(217, 217, 217);
+    // background-color: rgb(217, 217, 217);
+    .entrenamiento-introduccion{
+        // border: thin solid black;
+        border-radius: 20px;
+        width: 70%;
+        height: auto;
+        margin: 50px 220px;
+        padding: 30px;
+        background-color: white;
+        p{
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.5;  
+        }
+    
+    }
 }
+.img-entrenamiento-card{
+    width: 300px;
+    height: 300px;
+    margin-left: 180px;
+}
+
+
 #seccionSegundaEntrenamiento{
     width: 100%;
-    height: 70%;
+    height: 80%;
     border: 1px solid black;
-    background-color: rgb(201, 188, 157)
+    // background-color: rgb(201, 188, 157)
+    .card-entrenamiento{
+        margin: 20px 60px;
+        padding: 60px;
+    }
+
+    .tips-entrenamiento{
+        border: thin solid rgb(176, 23, 23) ;
+        margin: 20px 60px;
+        padding: 10px 60px;
+        .tips-entrenamiento-ul li{
+            box-sizing: content-box;
+            margin: 5px;
+            padding: 5px;
+            text-align: start;
+            list-style: circle;
+        }
+    }
 }

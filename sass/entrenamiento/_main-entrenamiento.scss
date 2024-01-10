@@ -30,6 +30,12 @@
     
     }
 }
+
+.card:hover{
+    transition: 1s;
+    box-shadow: 20px 15px 20px;
+}
+
 .img-entrenamiento-card{
     width: 120px;
     height: 120px;

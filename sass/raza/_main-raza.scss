@@ -8,13 +8,22 @@
 }
 
 .raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
-    width: 100%;
+    width: 95%;
     height: auto;
-    // border: 1px solid black;
+    border-bottom: 1px solid black;
+    // margin: 10px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    p{
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
 }
 
 .raza2, .raza4, .raza6{

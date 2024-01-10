@@ -9,7 +9,7 @@
 .historia-introduccion {
     width: 100%;
     height: 100vh;
-    /* border: 1px solid black; */
+    //  border: 1px solid black; 
     background-color: rgb(217, 217, 217);
 }
 .hero-image-introduccion{
@@ -19,6 +19,7 @@
     background-size: cover;
     color: rgb(6, 6, 5);
     background-repeat: no-repeat;
+    // transform: rotate(20deg 50deg);
 }
 .hero-image-desenlance{
     /* background-color: rgb(201, 188, 157); */
@@ -34,6 +35,7 @@
     background-color: rgba(229, 230, 218, 0.47);
     /* 0.75 del bg es la opacidad */
     text-align: center;
+    
 }
 .hero-image-introduccion h2{
     font-size: 28px;

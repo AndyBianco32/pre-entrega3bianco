@@ -10,22 +10,23 @@
 
 #seccionPrimeraEntrenamiento{
     width: 100%;
-    height: 20%;
-    border: 1px solid black;
+    height: auto;
+    border: 1px solid transparent;
     // background-color: rgb(217, 217, 217);
     .entrenamiento-introduccion{
         // border: thin solid black;
         border-radius: 20px;
         width: 80%;
         height: auto;
-        margin: 40px 40px;
-        padding: 30px;
+        margin: 20px 40px;
+        padding: 20px 10px;
         background-color: white;
         p{
             font-size: 16px;
             margin: 0;
             text-align: center;
-            line-height: 1.3;  
+            line-height: 1.3; 
+             
         }
     
     }
@@ -46,7 +47,7 @@
 #seccionSegundaEntrenamiento{
     width: 100%;
     height: 80%;
-    border: 1px solid black;
+    border: 1px solid transparent;
     // background-color: rgb(201, 188, 157)
     .card-entrenamiento{
         margin: 20px 10px;

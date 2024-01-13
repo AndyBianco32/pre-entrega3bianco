@@ -57,13 +57,15 @@
     .tips-entrenamiento{
         // border: thin solid rgb(176, 23, 23) ;
         margin: 20px 10px;
+        margin-bottom: 60px;
         padding: 10px 10px;
         .tips-entrenamiento-ul li{
+            display: list-item;
             box-sizing: content-box;
             margin: 5px 4px;
             padding: 5px 4px;
             text-align: start;
-            // list-style-type: disc;
+            list-style-type:disc;
         }
     }
 }

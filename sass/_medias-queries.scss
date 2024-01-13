@@ -72,11 +72,11 @@ li, a {
 }
 .primerParrafoInicio {
     /* border: 1px solid black; */
-    height: 250px;
-    width: 350px;
-    margin-top: 70px;
+    height: 350px;
+    width: 450px;
+    margin-top: 50px;
     margin-left: 100px;
-    font-size: 25px;
+    font-size: 22px;
     /* text-align: center;
     color: black; */
 }
@@ -376,13 +376,13 @@ margin-top: 20px;
     .tips-entrenamiento{
         // border: thin solid rgb(176, 23, 23) ;
         margin: 20px 60px;
-        padding: 10px 60px;
+        margin-bottom: 60px;
+        padding: 20px 60px;
         .tips-entrenamiento-ul li{
             box-sizing: content-box;
-            margin: 5px 35px;
-            padding: 5px 35px;
+            margin: 5px 15px;
+            padding: 5px 15px;
             text-align: start;
-            // list-style-type: disc;
         }
     }
 }

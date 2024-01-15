@@ -81,13 +81,17 @@
     text-align: center;
    }
    .hero-image-desenlance p{
-       font-size: 11px;
-       text-align: center;
+       font-size: 12px;
+       text-align: start;
    }
-   .hero-image-desenlance ul li{
+   .hero-image-desenlance ul {
+    padding-left: 20px;
+    li{
     display: list-item;
     list-style-type: disc;
     font-size: 12px;
+    text-align: start;
+    }
     }
 
 .historia-desenlace{
@@ -96,7 +100,7 @@
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 3% 13% 8% 29% 26% 18% 3%;
+    grid-template-rows: 2,5% 11% 8% 29% 26% 18% 3% 2,5%;
     grid-template-areas:
     "header header header header"
     "gral gral gral gral"
@@ -104,6 +108,7 @@
     "pelo pelo pelo pelo"
     "colores colores colores colores"
     "personalidad personalidad personalidad personalidad"
+    "conviv  conviv  conviv  conviv"
     "footer-des footer-des footer-des divInicio";}
 
 .header{
@@ -124,6 +129,9 @@
     .colores{
     grid-area: colores;
     }
+    .conviv{
+        grid-area: conviv;   
+    }
     .footer-des{
     grid-area: footer-des;
     }
@@ -136,6 +144,7 @@
     .pelo,
     .personalidad,
     .colores,
+    .conviv,
     .footer-des
     {
     background-color: white;

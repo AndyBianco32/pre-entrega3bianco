@@ -173,17 +173,17 @@ font-size: 15px;
 text-align: center;
 }
 .hero-image-desenlance p{
-   font-size: 12px;
+   font-size: 13px;
    text-align: center;
 }
 .hero-image-desenlance ul li{
 display: list-item;
 list-style-type: disc;
-font-size: 12px;
+font-size: 13px;
 }
 
 .historia-desenlace{
-    padding: 55px 95px;
+    padding: 55px 105px;
 /* margin: 0;
 width: 100%;
 height: 100vh; */
@@ -195,7 +195,7 @@ grid-template-areas:
 "gral     gral     gral     tamaño    tamaño    pelo    pelo      pelo      pelo      colores  colores  colores"
 "gral     gral     gral     tamaño    tamaño    pelo    pelo      pelo      pelo      colores  colores  colores"
 "personalidad personalidad personalidad personalidad personalidad pelo  pelo pelo pelo colores colores colores"
-"personalidad personalidad personalidad personalidad personalidad pelo  pelo pelo pelo colores colores colores"
+"personalidad personalidad personalidad personalidad personalidad conviv  conviv conviv conviv conviv conviv conviv"
 "footer-des footer-des footer-des footer-des footer-des footer-des footer-des footer-des footer-des divInicio divInicio divInicio"
 ;
 }
@@ -220,9 +220,13 @@ grid-area: personalidad;
 .colores{
 grid-area: colores;
 }
+.conviv{
+    grid-area: conviv;   
+}
 .footer-des{
 grid-area: footer-des;
 }
+
 .divInicio{
 grid-area: divInicio;
 }
@@ -233,11 +237,12 @@ grid-area: divInicio;
 .pelo,
 .personalidad,
 .colores,
+.conviv,
 .footer-des
 {
 background-color: white;
 margin: 8px;
-padding: 15px;
+padding: 35px;
 border-radius: 20px;
 }
 

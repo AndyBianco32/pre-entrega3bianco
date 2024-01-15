@@ -903,7 +903,7 @@ iframe {
   }
   .hero-image-desenlance p {
     font-size: 13px;
-    text-align: center;
+    text-align: start;
   }
   .hero-image-desenlance ul li {
     display: list-item;

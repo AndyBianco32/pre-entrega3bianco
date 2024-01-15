@@ -289,8 +289,12 @@ li, a {
   padding: 80px 20px;
 }
 
+.hero-image-desenlance .header-titulo {
+  font-size: 16px;
+  font-weight: bolder;
+}
 .hero-image-desenlance h2 {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -300,7 +304,7 @@ li, a {
 }
 
 .hero-image-desenlance ul {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .hero-image-desenlance ul li {
   display: list-item;
@@ -821,16 +825,15 @@ iframe {
   }
   .tituloPortadaRazas {
     /* margin-top: 50px; */
-    margin-left: 900px;
+    margin-left: 860px;
     font-size: 32px;
   }
   .primerParrafoRazas {
     /* border: 1px solid black; */
-    /* height: 250px;
-    width: 350px;
-    margin-top: 70px; */
-    margin-left: 900px;
-    font-size: 25px;
+    height: 250px;
+    width: 400px;
+    margin-left: 860px;
+    font-size: 22px;
     /* text-align:center;   */
   }
   .tituloPortadaSalud {
@@ -897,18 +900,22 @@ iframe {
     height: 100vh;
     padding: 20px 190px;
   }
+  .hero-image-desenlance .header-titulo {
+    font-size: 22px;
+    font-weight: bolder;
+  }
   .hero-image-desenlance h2 {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
   }
   .hero-image-desenlance p {
-    font-size: 13px;
+    font-size: 15px;
     text-align: start;
   }
   .hero-image-desenlance ul li {
     display: list-item;
     list-style-type: disc;
-    font-size: 13px;
+    font-size: 15px;
   }
   .historia-desenlace {
     padding: 55px 105px;

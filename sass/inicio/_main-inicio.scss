@@ -76,16 +76,22 @@
     padding: 80px 20px;
 }
 
-.hero-image-desenlance h2{
-    font-size: 12px;
-    text-align: center;
-   }
+.hero-image-desenlance {
+    .header-titulo{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    h2{
+        font-size: 14px;
+        text-align: center;
+        }
+}
    .hero-image-desenlance p{
        font-size: 12px;
        text-align: start;
    }
    .hero-image-desenlance ul {
-    padding-left: 20px;
+    padding-left: 10px;
     li{
     display: list-item;
     list-style-type: disc;

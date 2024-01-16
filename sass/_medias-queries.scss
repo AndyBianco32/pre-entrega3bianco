@@ -113,14 +113,14 @@ font-size: 20px;
 .tituloPortadaEntrenamiento{
     margin-top: 50px;
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .primerParrafoEntrenamiento{
     /* border: 1px solid black; */
   height: 280px;
   width: 350px;
   margin: 50px 55px;
-  font-size: 24px;
+  font-size: 19px;
 //   text-align: start;  
 }
 
@@ -369,11 +369,13 @@ margin-top: 20px;
         border-radius: 20px;
         width: 70%;
         height: 200px;
-        margin: 50px 220px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 30px;
         background-color: white;
         p{
-            font-size: 18px;
+            font-size: 17px;
             text-align: center;
             line-height: 1.5;  
         }
@@ -382,8 +384,9 @@ margin-top: 20px;
 }
 .img-entrenamiento-card{
     width: 300px;
-    height: 300px;
-    margin-left: 180px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -393,16 +396,17 @@ margin-top: 20px;
     border: 1px solid transparent;
     // background-color: rgb(201, 188, 157)
     .card-entrenamiento{
-        margin: 20px 60px;
+        margin: 20px 180px;
         padding: 60px;
     }
 
     .tips-entrenamiento{
         // border: thin solid rgb(176, 23, 23) ;
-        margin: 20px 60px;
+        margin: 20px 120px;
         margin-bottom: 60px;
         padding: 20px 60px;
         .tips-entrenamiento-ul li{
+            font-size: 17px;
             box-sizing: content-box;
             margin: 5px 15px;
             padding: 5px 15px;
@@ -411,7 +415,7 @@ margin-top: 20px;
     }
 }
 
-//  ////////////////// MAIN - Entrenamiento ///////////////////////
+//  ////////////////// MAIN - Curiosidades ///////////////////////
 
 #mainCuriosidades{
     width: 100%;

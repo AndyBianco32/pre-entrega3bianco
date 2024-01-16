@@ -166,7 +166,7 @@ li, a {
 .tituloPortadaSalud {
   margin-top: 50px;
   margin-left: 40px;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .primerParrafoSalud {
@@ -175,7 +175,7 @@ li, a {
   width: 300px;
   margin-top: 70px;
   margin-left: 40px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: start;
 }
 
@@ -426,7 +426,6 @@ li, a {
   /* border: 1px solid black; */
   display: flex;
   flex-flow: column;
-  /* flex-wrap: wrap; */
   background: linear-gradient(180deg, rgb(130, 151, 201) 0%, rgb(223, 231, 242) 49%, rgb(204, 169, 181) 100%);
   background-position: center;
   background-size: cover;
@@ -455,7 +454,7 @@ li, a {
 }
 
 .nutricion-texto {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.8px;
 }
 
@@ -519,7 +518,7 @@ li, a {
 }
 
 .alimentos-evitar-texto {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 20px;
 }
 
@@ -839,7 +838,7 @@ iframe {
   .tituloPortadaSalud {
     margin-top: 50px;
     margin-left: 70px;
-    font-size: 32px;
+    font-size: 30px;
   }
   .primerParrafoSalud {
     /* border: 1px solid black; */
@@ -847,7 +846,7 @@ iframe {
     width: 350px;
     margin-top: 70px;
     margin-left: 75px;
-    font-size: 25px;
+    font-size: 20px;
     /* text-align: start;   */
   }
   .tituloPortadaEntrenamiento {
@@ -1023,8 +1022,8 @@ iframe {
     height: 100%;
     width: 35%;
     /* border: 1px solid black; */
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 30px;
     /* background-color: rgb(217, 217, 217); */
   }
   .nutricion-titulo {
@@ -1032,7 +1031,7 @@ iframe {
     margin: 20px 0px;
   }
   .nutricion-texto {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.7px;
   }
   .alimentacion-opciones {
@@ -1058,7 +1057,7 @@ iframe {
     margin: 10px 0px;
   }
   .alimentos-evitar-texto {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
   }
   #seccionPrimeraEntrenamiento {

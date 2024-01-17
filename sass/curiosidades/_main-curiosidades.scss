@@ -35,8 +35,11 @@
         border: 1px solid black;
         border-radius: 20px;
         padding: 20px;
-        width: 80%;
+        width: 100%;
         height: 25%;
+        p{
+            font-size: 15px;
+        }
         .articuloCuriosidades-titulo{
             text-align: center;
         }
@@ -60,9 +63,12 @@
     align-items: center;
     // background-color: rgb(217, 217, 217);
 }
+
+
 .asideCuriosidades{
     width: 80%;
     height: 90%;
+    margin-top: 85px;
     border: 1px solid transparent;
     padding: 20px;
     border-radius: 2%;

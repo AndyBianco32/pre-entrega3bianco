@@ -83,6 +83,11 @@ html {
   text-align: center;
 }
 
+h1 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
 li, a {
   display: flex;
   flex-direction: column;
@@ -118,6 +123,7 @@ li, a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 0px;
   /* margin-left: 400px;  */
 }
 
@@ -635,9 +641,18 @@ li, a {
 .articuloCuriosidades .articuloCuriosidades-div .articuloCuriosidades-titulo {
   text-align: center;
 }
+.articuloCuriosidades .figure-img {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .articuloCuriosidades .articuloCuriosidades-img {
   width: 240px;
   height: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 #seccionSegundaCuriosidades {
@@ -933,7 +948,7 @@ iframe {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 10% 20% 20% 20% 20% 10%;
-    grid-template-areas: "header   header   header   header    header    header    header    header    header    colores  colores  colores" "gral     gral     gral     tamaño    tamaño    pelo    pelo      pelo      pelo      colores  colores  colores" "gral     gral     gral     tamaño    tamaño    pelo    pelo      pelo      pelo      colores  colores  colores" "personalidad personalidad personalidad personalidad personalidad pelo  pelo pelo pelo colores colores colores" "personalidad personalidad personalidad personalidad personalidad conviv  conviv conviv conviv conviv conviv conviv" "footer-des footer-des footer-des footer-des footer-des footer-des footer-des footer-des footer-des divInicio divInicio divInicio";
+    grid-template-areas: "header       header       header       header       header       header              header               header              header              colores    colores    colores" "gral         gral         gral         tamaño       tamaño       pelo                pelo                 pelo                pelo                colores    colores    colores" "gral         gral         gral         nombres      nombres      algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad conviv              conviv               conviv              conviv              conviv     conviv     conviv" "footer-des   footer-des   footer-des   footer-des   footer-des   footer-des          footer-des           footer-des          footer-des          divInicio  divInicio  divInicio";
   }
   /* .historia-desenlace > *{
   border: thin solid #222;
@@ -950,11 +965,17 @@ iframe {
   .pelo {
     grid-area: pelo;
   }
+  .nombres {
+    grid-area: nombres;
+  }
   .personalidad {
     grid-area: personalidad;
   }
   .colores {
     grid-area: colores;
+  }
+  .algunasCuriosidades {
+    grid-area: algunasCuriosidades;
   }
   .conviv {
     grid-area: conviv;
@@ -971,8 +992,10 @@ iframe {
   .pelo,
   .personalidad,
   .colores,
+  .algunasCuriosidades,
   .conviv,
-  .footer-des {
+  .footer-des,
+  .nombres {
     background-color: white;
     margin: 8px;
     padding: 35px;
@@ -1134,6 +1157,11 @@ iframe {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+  .articuloCuriosidades .figure-img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .articuloCuriosidades .articuloCuriosidades-img {
     width: 500px;

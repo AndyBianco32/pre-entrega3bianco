@@ -140,15 +140,27 @@
     }
     .personalidad{
     grid-area: personalidad;
+    background-image: url(../img/imgGrid3.4.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat; 
     }
     .colores{
     grid-area: colores;
+    background-image: url(../img/imgGrid2.jpg);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat; 
     }
     .algunasCuriosidades{
         grid-area: algunasCuriosidades;
+        background-image: url(../img/imgGrid.jpg);
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;  
     }
     .conviv{
-        grid-area: conviv;   
+        grid-area: conviv;
     }
     .footer-des{
     grid-area: footer-des;
@@ -171,4 +183,14 @@
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+    }
+
+    .listaColores{
+        margin-top: 170px;
+    }
+    .listaAlgunasCuriosidades{
+        margin-bottom: 200px;
+    }
+    .listaPersonalidad{
+        margin-bottom: 150px;
     }

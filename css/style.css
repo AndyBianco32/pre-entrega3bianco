@@ -352,14 +352,26 @@ li, a {
 
 .personalidad {
   grid-area: personalidad;
+  background-image: url(../img/imgGrid3.4.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .colores {
   grid-area: colores;
+  background-image: url(../img/imgGrid2.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .algunasCuriosidades {
   grid-area: algunasCuriosidades;
+  background-image: url(../img/imgGrid.jpg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .conviv {
@@ -388,6 +400,18 @@ li, a {
   margin: 8px;
   padding: 8px;
   border-radius: 20px;
+}
+
+.listaColores {
+  margin-top: 170px;
+}
+
+.listaAlgunasCuriosidades {
+  margin-bottom: 200px;
+}
+
+.listaPersonalidad {
+  margin-bottom: 150px;
 }
 
 /* ///////////////Estilos Main - Secciones y articulo Raza ////////////// */
@@ -798,9 +822,6 @@ iframe {
 }
 
 /*///////////////// MEDIAS QUERIES //////////////////////*/
-/* Small */
-/* Medium */
-/* Large */
 /* Extra-Large */
 @media (min-width: 1200px) {
   .nav {
@@ -980,13 +1001,24 @@ iframe {
   }
   .personalidad {
     grid-area: personalidad;
+    background-image: url(../img/imgGrid3.4.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .colores {
     grid-area: colores;
+    background-image: url(../img/imgGrid2.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .algunasCuriosidades {
-    background-image: url(../img/img-grid.jpg);
     grid-area: algunasCuriosidades;
+    background-image: url(../img/imgGrid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .conviv {
     grid-area: conviv;
@@ -1011,6 +1043,11 @@ iframe {
     margin: 8px;
     padding: 35px;
     border-radius: 20px;
+  }
+  .listaColores {
+    position: relative;
+    top: 140px;
+    margin-top: 0px;
   }
   #seccionPrincipalRaza {
     width: 100%;
@@ -1223,5 +1260,8 @@ iframe {
     font-size: 18px;
   }
 }
+/* Small */
+/* Medium */
+/* Large */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,21 +1,5 @@
 /*///////////////// MEDIAS QUERIES //////////////////////*/
 
-/* Small */
-@media(min-width:576px){
-            
-            
-}
-
-/* Medium */
-@media(min-width:768px){
-        
-}
-
-/* Large */
-@media(min-width:992px){
-        
-}
-
 /* Extra-Large */
 @media(min-width:1200px){
 
@@ -225,13 +209,23 @@ grid-area: pelo;
 }
 .personalidad{
 grid-area: personalidad;
+background-image: url(../img/imgGrid3.4.jpg);
+background-position: bottom;
+background-size: contain;
+background-repeat: no-repeat;
 }
 .colores{
 grid-area: colores;
+background-image: url(../img/imgGrid2.jpg);
+background-position: top;
+background-size: contain;background-repeat: no-repeat;
 }
 .algunasCuriosidades{
-    background-image: url(../img/img-grid.jpg);
-    grid-area: algunasCuriosidades;
+grid-area: algunasCuriosidades;
+background-image: url(../img/imgGrid.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 .conviv{
     grid-area: conviv;   
@@ -260,6 +254,13 @@ margin: 8px;
 padding: 35px;
 border-radius: 20px;
 }
+
+.listaColores{
+    position: relative;
+    top: 140px;
+    margin-top: 0px;
+}
+
 
 //  ////////////////// MAIN - RAZA ///////////////////////
 
@@ -539,4 +540,22 @@ h4{
 }   
 }
 
+}
+
+
+/* Small */
+@media(min-width:576px){
+            
+            
+}
+
+/* Medium */
+@media(min-width:768px){
+    
+        
+}
+
+/* Large */
+@media(min-width:992px){
+        
 }

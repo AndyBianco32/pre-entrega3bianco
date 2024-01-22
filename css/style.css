@@ -1355,6 +1355,11 @@ iframe {
     font-weight: 500;
     letter-spacing: 1px;
   }
+  .carousel-inner div img {
+    width: 100%;
+    height: 100vh;
+    padding: 20px 190px;
+  }
   .historia-desenlace {
     padding: 55px 105px;
     /* margin: 0;
@@ -1398,14 +1403,50 @@ iframe {
     font-size: 16px;
     margin-top: 20px;
   }
-  .figure-img {
+  #seccionSegundaEntrenamiento {
+    width: 100%;
+    height: 80%;
+    border: 1px solid transparent;
+  }
+  #seccionSegundaEntrenamiento .card-entrenamiento {
+    margin: 20px 80px;
+    padding: 10px;
+  }
+  .img-entrenamiento-card {
+    width: 210px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .articuloCuriosidades .figure-img {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
   }
-  .articuloCuriosidades-img {
+  .articuloCuriosidades .articuloCuriosidades-img {
     width: 480px;
     height: 300px;
+  }
+  textarea {
+    width: 480px;
+    height: 180px;
+  }
+  iframe {
+    width: 480px;
+    height: 280px;
+  }
+  #footer {
+    margin-top: auto;
+    width: 100%;
+    height: 162px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(226, 219, 202);
+  }
+  #footer h4 {
+    font-size: 18px;
   }
 }
 

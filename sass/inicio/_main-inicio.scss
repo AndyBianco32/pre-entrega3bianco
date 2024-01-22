@@ -115,9 +115,11 @@
     "header header header header"
     "gral gral gral gral"
     "tamaño tamaño tamaño tamaño"
+    "nombres nombres nombres nombres"
     "pelo pelo pelo pelo"
     "colores colores colores colores"
     "personalidad personalidad personalidad personalidad"
+    "algunasCuriosidades algunasCuriosidades algunasCuriosidades algunasCuriosidades"
     "conviv  conviv  conviv  conviv"
     "footer-des footer-des footer-des divInicio";}
 
@@ -130,6 +132,9 @@
     .tamaño{
     grid-area: tamaño;
     }
+    .nombres{
+        grid-area: nombres;
+    }
     .pelo{
     grid-area: pelo;
     }
@@ -138,6 +143,9 @@
     }
     .colores{
     grid-area: colores;
+    }
+    .algunasCuriosidades{
+        grid-area: algunasCuriosidades;
     }
     .conviv{
         grid-area: conviv;   
@@ -154,8 +162,10 @@
     .pelo,
     .personalidad,
     .colores,
+    .algunasCuriosidades,
     .conviv,
-    .footer-des
+    .footer-des,
+    .nombres
     {
     background-color: white;
     margin: 8px;

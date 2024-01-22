@@ -874,8 +874,7 @@ iframe {
     margin-top: 30px;
     margin-left: 100px;
     font-size: 21px;
-    /* text-align: center;
-    color: black; */
+    text-align: start;
   }
   .tituloPortadaRazas {
     /* margin-top: 50px; */
@@ -884,16 +883,16 @@ iframe {
   }
   .primerParrafoRazas {
     /* border: 1px solid black; */
-    height: 250px;
+    height: 350px;
     width: 400px;
     margin-left: 860px;
-    font-size: 22px;
-    /* text-align:center;   */
+    font-size: 21px;
+    text-align: start;
   }
   .tituloPortadaSalud {
     margin-top: 50px;
     margin-left: 70px;
-    font-size: 30px;
+    font-size: 32px;
   }
   .primerParrafoSalud {
     /* border: 1px solid black; */
@@ -901,25 +900,26 @@ iframe {
     width: 350px;
     margin-top: 70px;
     margin-left: 75px;
-    font-size: 20px;
-    /* text-align: start;   */
+    font-size: 21px;
+    text-align: start;
   }
   .tituloPortadaEntrenamiento {
     margin-top: 50px;
     margin-left: 50px;
-    font-size: 25px;
+    font-size: 32px;
   }
   .primerParrafoEntrenamiento {
     /* border: 1px solid black; */
     height: 280px;
     width: 350px;
     margin: 50px 55px;
-    font-size: 19px;
+    font-size: 21px;
+    text-align: start;
   }
   .tituloPortadaCuriosidades {
     margin-top: 50px;
     margin-left: 60px;
-    font-size: 26px;
+    font-size: 32px;
   }
   .primerParrafoCuriosidades {
     /* border: 1px solid black; */
@@ -927,8 +927,8 @@ iframe {
     width: 300px;
     margin-top: 70px;
     margin-left: 65px;
-    font-size: 20px;
-    /* text-align: start;  */
+    font-size: 21px;
+    text-align: start;
   }
   .hero-image-introduccion h2 {
     font-size: 40px;
@@ -1263,5 +1263,150 @@ iframe {
 /* Small */
 /* Medium */
 /* Large */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .nav {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav img, .nav a, .nav ul {
+    display: inline-block;
+  }
+  li, a {
+    display: inline-block;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .navLinks {
+    display: flex;
+    margin-left: 100px;
+  }
+  .tituloPortadaInicio {
+    font-size: 32px;
+  }
+  .primerParrafoInicio {
+    height: 400px;
+    width: 390px;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 21px;
+    text-align: start;
+  }
+  .tituloPortadaRazas {
+    margin-left: 650px;
+    font-size: 32px;
+  }
+  .primerParrafoRazas {
+    height: 350px;
+    width: 350px;
+    margin-left: 650px;
+    font-size: 21px;
+    text-align: start;
+  }
+  .tituloPortadaSalud {
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 32px;
+  }
+  .primerParrafoSalud {
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 75px;
+    font-size: 21px;
+    text-align: start;
+  }
+  .tituloPortadaEntrenamiento {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 32px;
+  }
+  .primerParrafoEntrenamiento {
+    height: 280px;
+    width: 350px;
+    margin: 50px 55px;
+    font-size: 21px;
+    text-align: start;
+  }
+  .tituloPortadaCuriosidades {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 26px;
+  }
+  .primerParrafoCuriosidades {
+    height: 300px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 65px;
+    font-size: 20px;
+    text-align: start;
+  }
+  .hero-image-introduccion h2 {
+    font-size: 35px;
+    padding: 20px;
+  }
+  .hero-image-introduccion p {
+    width: 72%;
+    font-size: 18px;
+    margin: 15px 100px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .historia-desenlace {
+    padding: 55px 105px;
+    /* margin: 0;
+    width: 100%;
+    height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% 20% 20% 20% 20% 10%;
+    grid-template-areas: "header       header       header       header       header       header              header               header              header              colores    colores    colores" "gral         gral         gral         tamaño       tamaño       pelo                pelo                 pelo                pelo                colores    colores    colores" "gral         gral         gral         nombres      nombres      algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad conviv              conviv               conviv              conviv              conviv     conviv     conviv" "footer-des   footer-des   footer-des   footer-des   footer-des   footer-des          footer-des           footer-des          footer-des          divInicio  divInicio  divInicio";
+  }
+  .listaColores {
+    position: relative;
+    top: 100px;
+    margin-top: 0px;
+  }
+  .alimentacion-opciones {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .articulo-nutricion {
+    /* border: thin solid black; */
+    margin: 40px;
+    width: 100%;
+  }
+  .nutricion-titulo {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+  .nutricion-texto {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+  }
+  .alimentos-evitar-titulo {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .alimentos-evitar-texto {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .figure-img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .articuloCuriosidades-img {
+    width: 480px;
+    height: 300px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

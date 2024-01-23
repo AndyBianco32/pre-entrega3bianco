@@ -24,11 +24,9 @@ li, a {
     color: black;
 }
     
-/* .nav ul li a {
-    margin-left: 18px;
+.nav ul li a {
     font-size: 25px;
-    color: black;
-} */
+} 
     
 /* .nav ul li a:hover {
     font-size: 32px;
@@ -570,6 +568,9 @@ h4{
         text-decoration: none;
         color: black;
     }
+    .nav ul li a {
+        font-size: 25px;
+    } 
         
     .navLinks {
         display: flex;

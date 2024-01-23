@@ -105,10 +105,22 @@ li, a {
   color: black;
 }
 
+.nav .navLinksCuriosidades li a {
+  color: white;
+}
+
 .nav ul li a:hover {
   font-size: 32px;
   transition: 1s;
   font-weight: bold;
+  color: rgb(250, 79, 17);
+  text-decoration-line: underline;
+}
+
+.nav ul li a[href*="#"] {
+  font-weight: bold;
+  color: rgb(250, 79, 17);
+  text-decoration-line: underline;
 }
 
 .imgLogo {
@@ -840,11 +852,9 @@ iframe {
     text-decoration: none;
     color: black;
   }
-  /* .nav ul li a {
-      margin-left: 18px;
-      font-size: 25px;
-      color: black;
-  } */
+  .nav ul li a {
+    font-size: 25px;
+  }
   /* .nav ul li a:hover {
       font-size: 32px;
       transition: 1s;
@@ -1305,6 +1315,9 @@ iframe {
     font-style: none;
     text-decoration: none;
     color: black;
+  }
+  .nav ul li a {
+    font-size: 25px;
   }
   .navLinks {
     display: flex;

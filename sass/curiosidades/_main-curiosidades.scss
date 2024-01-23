@@ -25,7 +25,7 @@
     border: 1px solid transparent;
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,8 +56,8 @@
     }
 
     .articuloCuriosidades-img{
-        width: 240px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
         
@@ -90,11 +90,11 @@
 }
 
 textarea{
-    width: 180px;
+    width: 175px;
     height: 180px;
 }
 
 iframe{
-    width: 180px;
+    width: 175px;
     height: 280px;
 }

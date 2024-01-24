@@ -809,6 +809,7 @@ iframe {
   display: block;
   font-size: 15px;
   text-align: center;
+  color: rgb(250, 79, 17);
 }
 
 .imgIconsDog {
@@ -820,12 +821,17 @@ iframe {
 .footerEmail {
   font-size: 15px;
   text-align: center;
+  color: rgb(250, 79, 17);
+}
+.footerEmail a {
+  color: rgb(250, 79, 17);
 }
 
 /* footer redes */
 .footerRedes {
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
+  color: rgb(250, 79, 17);
 }
 
 .imgLogoFace, .imgLogoInst, .imgLogoPint {

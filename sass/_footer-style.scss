@@ -18,9 +18,15 @@
 /* footer logo */
 .footerlcons{
     display: block;
+    padding: 12px 0px;
     font-size: 15px;
+    font-weight: bolder;
     text-align: center; 
-    color: rgb(250, 79, 17);   
+    // color: rgb(250, 79, 17);  
+    // color: rgb(228, 73, 16); 
+    // color: #ff6347;
+    color: #ff4321;
+    // filter: drop-shadow(0 2px rgb(193, 60, 4));
 }
 .imgIconsDog{
     width: 70px;
@@ -30,18 +36,34 @@
 /* footer email */
 .footerEmail{
     font-size: 15px;
+    font-weight: bolder;
     text-align: center; 
-    color: rgb(250, 79, 17); 
+    padding: 12px 0px;
+    // color: rgb(250, 79, 17); 
+    // color: rgb(228, 73, 16);
+    // color: #ff6347;
+    color: #ff4321;
     a{
-        color: rgb(250, 79, 17);
+        // color: rgb(250, 79, 17);
+        // color: rgb(228, 73, 16);
+        // color: #ff6347;
+        color: #ff4321;
     }  
 }
 
 /* footer redes */
 .footerRedes {
-    font-size: 17px;
-    text-align: center;  
-    color: rgb(250, 79, 17); 
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center; 
+    padding: 12px 0px;
+    // color: rgb(250, 79, 17);
+    // color: rgb(228, 73, 16); 
+    // color: #ff6347;
+    color: #ff4321;
+    a{
+        display: inline-block;
+    }
 }
 
 .imgLogoFace, .imgLogoInst, .imgLogoPint {

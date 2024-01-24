@@ -26,7 +26,7 @@
     background-attachment: fixed;
 }
 .headerSalud{
-    background-image: url(../img/3PAG.jpg);
+    background-image: url(../img/3PAGINA.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -92,12 +92,17 @@ li, a {
     font-size: 32px;
     transition: 1s;
     font-weight: bold;
-    color: rgb(250, 79, 17);
+    // color: rgb(228, 73, 16);
+    color: #ff4321;
+    filter: drop-shadow(0 2px rgb(193, 60, 4));
     text-decoration-line: underline;
 }
 .nav ul li a[href*="#"]{
     font-weight: bold;
-    color: rgb(250, 79, 17);
+    // color: rgb(250, 79, 17);
+    // color: #ff6347;
+    color: #ff4321;
+    // filter: drop-shadow(0 2px rgb(193, 60, 4));
     text-decoration-line: underline;
 }
 

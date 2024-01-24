@@ -42,6 +42,7 @@
         }
         .articuloCuriosidades-titulo{
             text-align: center;
+            color: #ff4321;
         }
         
     }
@@ -87,6 +88,9 @@
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
     padding: 35px;
+    h2{
+        color: #ff4321;
+    }
 }
 
 textarea{
@@ -97,4 +101,16 @@ textarea{
 iframe{
     width: 175px;
     height: 280px;
+}
+
+.botonContacto{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4321;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
 }

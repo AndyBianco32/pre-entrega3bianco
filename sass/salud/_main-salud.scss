@@ -3,61 +3,54 @@
 #mainSalud{
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
     display: flex;
     flex-flow: column;
-    // flex-wrap: wrap;
-    // background-image:url(../img/fondoMainSalud.jpg);
     background: linear-gradient(180deg, rgba(130,151,201,1) 0%, rgba(223,231,242,1) 49%, rgba(204,169,181,1) 100%);
     background-position: center;
     background-size: cover;
-    /* color: rgb(6, 6, 5); */
     background-repeat: no-repeat;
 }
 
 .seccionPrimeraSalud{
     height: 100%;
     width: 85%;
-    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
-    /* background-color: rgb(217, 217, 217); */
 }
 
 .articulo-nutricion{
-    /* border: thin solid black; */
     margin: 40px ;
     width: 80%;
+    .nutricion-titulo{
+        font-size: 20px;
+        margin: 20px 0px;
+        color: #ff4321;
+    }
+    .nutricion-texto{
+        font-size: 14px;
+        letter-spacing: 0.8px;
+    }
 }
-.nutricion-titulo{
-    font-size: 20px;
-    margin: 20px 0px;
-    color: #ff4321;
-}
-.nutricion-texto{
-    font-size: 14px;
-    letter-spacing: 0.8px;
-}
+
     
 .seccionSegundaSalud{
     
     height: 40%;
     width: 65%;
-    /* border: 1px solid black; */
-    /* background-color: rgb(201, 188, 157) */
 }
 .alimentacion-opciones-titulo{
     font-size: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-left: 20px;
     color: #ff4321;
 }
 .alimentacion-opciones{
-    margin: 50px 50px;
+    margin: 50px 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* justify-content: space-around; */
 }
 .lista-opciones{
     display: flex;
@@ -70,24 +63,21 @@
 }
 .icono-alimentacion{
     margin-bottom: 20px;
+    width: 50px;
 }
 
 
 .seccionTerceraSalud{
     height: 60%;
     width: 90%;
-    /* border: 1px solid black; */
-    /* background-color: rgb(255, 255, 255); */
 }
 
 .img-alimentacion{
     width: 90%;
-    /* height: 450px; */
     margin: 0px 20px;
 }
 
 .alimentos-evitar{
-    /* border: thin solid black; */
     margin: 30px 50px;
 
 }

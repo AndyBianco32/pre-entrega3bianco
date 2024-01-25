@@ -7,7 +7,6 @@
 .nav {
     width: 100%;
     height: 14%;
-    // border: 1px solid black;
     display: flex;
     flex-direction: row;
 }
@@ -28,19 +27,6 @@ li, a {
     font-size: 25px;
 } 
     
-/* .nav ul li a:hover {
-    font-size: 32px;
-    transition: 1s;
-    font-weight: bold;
-}
-    
-.imgLogo {
-    height: 70px;
-    width: 70px;
-    border-radius: 100%;
-    margin-left: 25px;
-} */
-    
 .navLinks {
     display: flex;
     margin-left: 400px;  
@@ -51,17 +37,15 @@ li, a {
     font-size: 32px;
     margin-top: 20px;
     margin-left: 40px;
-    /* color: black; */
+
 }
 .primerParrafoInicio {
-    /* border: 1px solid black; */
     height: 350px;
     width: 450px;
     margin-top: 30px;
     margin-left: 90px;
     font-size: 21px;
-    text-align: start;
-    
+    text-align: start;  
 }
 
 .tituloPortadaRazas{
@@ -70,7 +54,6 @@ margin-left: 860px;
 font-size: 32px;
 }
 .primerParrafoRazas{
-/* border: 1px solid black; */
 height: 350px;
 width: 400px;
 margin-top: 40px;
@@ -85,7 +68,6 @@ margin-left: 70px;
 font-size: 32px;
 }
 .primerParrafoSalud{
-/* border: 1px solid black; */
 height: 250px;
 width: 350px;
 margin-top: 50px;
@@ -99,7 +81,6 @@ text-align: start;
     font-size: 32px;
 }
 .primerParrafoEntrenamiento{
-    /* border: 1px solid black; */
   height: 280px;
   width: 350px;
   margin: 40px 55px;
@@ -113,8 +94,7 @@ margin-left: 70px;
 font-size: 32px;
 }
 .primerParrafoCuriosidades{
-/* border: 1px solid black; */
- height: 300px;
+height: 300px;
 width: 300px;
 margin-top: 50px;
 margin-left: 70px; 
@@ -129,10 +109,7 @@ text-align: start;
 font-size: 33px;
 padding: 10px;
 }
-/* .hero-image h2:hover{
-font-size: 50px;
-transition: 1s;
-} */
+
 .hero-image-introduccion p{
 width: 72%;
 font-size: 19px;
@@ -141,10 +118,7 @@ padding: 0px 20px;
 font-weight: 500;
 letter-spacing: 1px;
 }
-/* .hero-image p:hover{
-font-size: 31px;
-transition: 0.1s;
-} */
+
 .carousel-inner div img{
 width: 100%;
 height: 100vh;
@@ -173,10 +147,7 @@ font-size: 15px;
 }
 
 .historia-desenlace{
-    padding: 55px 105px;
-/* margin: 0;
-width: 100%;
-height: 100vh; */
+padding: 55px 105px;
 display: grid;
 grid-template-columns: repeat(12, 1fr);
 grid-template-rows: 10% 20% 20% 20% 20% 10%;
@@ -189,9 +160,7 @@ grid-template-areas:
 "footer-des   footer-des   footer-des   footer-des   footer-des   footer-des          footer-des           footer-des          footer-des          divInicio  divInicio  divInicio"
 ;
 }
-/* .historia-desenlace > *{
-border: thin solid #222;
-} */
+
 .header{
 grid-area: header;
 }
@@ -267,7 +236,7 @@ border-radius: 20px;
 #seccionPrincipalRaza{
 width: 100%;
 height: 1640px;
-border: 1px solid transparent;
+border: $border-boxes
 }
 
 .raza1, .raza2, .raza3, .raza4, .raza5, .raza6, .raza7{
@@ -310,66 +279,59 @@ width: 900px;
 #mainSalud{
 width: 100%;
 height: 1460px;
-/* border: 1px solid black; */
 display: flex;
 flex-flow: column;
 flex-wrap: wrap;
-/* background-image:url(../img/fondoMainSalud.jpg);
-background-position: center;
-background-size: cover; */
-/* color: rgb(6, 6, 5); */
-/* background-repeat: no-repeat; */
-
 }
+
 .seccionPrimeraSalud{
 height: 100%;
 width: 35%;
-/* border: 1px solid black; */
 margin: 0;
-padding: 30px; 
-/* background-color: rgb(217, 217, 217); */
-}
-
+padding: 30px;
 .nutricion-titulo{
-font-size: 26px;
-margin: 20px 0px;
-}
-.nutricion-texto{
-font-size: 16px;
-letter-spacing: 0.7px;
-}
-
-.alimentacion-opciones{
-margin-top: 50px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+    font-size: 26px;
+    margin: 20px 0px;
+    }
+    .nutricion-texto{
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    } 
 }
 
 .alimentacion-opciones-titulo{
-font-size: 26px;
-/* text-align: center;
-margin-top: 50px; */
+    font-size: 26px;
+    margin-left: 0px;
 }
+
+.alimentacion-opciones{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .icono-alimentacion{
+        margin-bottom: 20px;
+        width: 90px;
+}
+}
+
 .seccionTerceraSalud{
-height: 60%;
-width: 65%;
-/* border: 1px solid black; */
-/* background-color: rgb(255, 255, 255); */
-}
-.img-alimentacion{
-    width: 90%;
-    /* height: 450px; */
-    margin: 0px 40px;
-}
-.alimentos-evitar-titulo{
-font-size: 26px;
-text-align: center;
-margin: 10px 0px;
-}
-.alimentos-evitar-texto{
-font-size: 16px;
-margin-top: 20px;
+    height: 60%;
+    width: 65%;
+    .img-alimentacion{
+        width: 90%;
+        margin: 0px 40px;
+    }
+    .alimentos-evitar-titulo{
+    font-size: 26px;
+    text-align: center;
+    margin: 15px 0px;
+    padding-top: 10px;
+    }
+    .alimentos-evitar-texto{
+    font-size: 16px;
+    margin-top: 20px;
+    }
 }
 
 
@@ -379,10 +341,8 @@ margin-top: 20px;
     width: 100%;
     height: 20%;
     margin: 0px 0px;
-    border: 1px solid transparent;
-    // background-color: rgb(217, 217, 217);
+    border: $border-boxes;
     .entrenamiento-introduccion{
-        // border: thin solid black;
         border-radius: 20px;
         width: 70%;
         height: 220px;
@@ -412,15 +372,13 @@ margin-top: 20px;
 #seccionSegundaEntrenamiento{
     width: 100%;
     height: 80%;
-    border: 1px solid transparent;
-    // background-color: rgb(201, 188, 157)
+    border: $border-boxes;
     .card-entrenamiento{
         margin: 20px 180px;
         padding: 60px;
     }
 
     .tips-entrenamiento{
-        // border: thin solid rgb(176, 23, 23) ;
         margin: 20px 120px;
         margin-bottom: 60px;
         padding: 20px 60px;
@@ -441,13 +399,12 @@ margin-top: 20px;
     height: auto;
     display: flex;
     flex-direction: row;
-    // background: linear-gradient(180deg, rgba(235,238,241,1) 0%, rgba(189,195,199,1) 42%, rgba(44,62,80,1) 100%);
 }
 
 #seccionPrimeraCuriosidades{
     width:60% ;
     height: 100%;
-    border: 1px solid transparent;
+    border: $border-boxes;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -455,13 +412,12 @@ margin-top: 20px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    // background-color: rgb(217, 217, 217);
 }
 
 .articuloCuriosidades{
-    width: 80%;
+    width: 90%;
     height: 40%;
-    border: 1px solid black;
+    border: $border-boxes;
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
     padding: 20px;
@@ -496,20 +452,18 @@ margin-top: 20px;
 #seccionSegundaCuriosidades{
     width: 40%;
     height: 100%;
-    border: 1px solid transparent;
+    border: $border-boxes;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
-    // background-color: rgb(217, 217, 217);
 }
 .asideCuriosidades{
     width: 80%;
     height: 100%;
-    // border: 1px solid black;
-    margin-top: 135px;
+    margin-top: 120px;
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
     padding: 35px;
@@ -538,7 +492,6 @@ iframe{
 margin-top: auto;
 width: 100%;
 height: 162px;
-// border: 1px solid black;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -674,10 +627,7 @@ h4{
         }
 
     .historia-desenlace{
-        padding: 55px 105px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
+    padding: 55px 105px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 10% 20% 20% 20% 20% 10%;
@@ -704,12 +654,13 @@ h4{
         flex-direction: row;
         justify-content: space-around;
         }
-
-        .articulo-nutricion{
-            /* border: thin solid black; */
-            margin: 40px ;
-            width: 100%;
+        .alimentacion-opciones-titulo{
+            margin-left: 0px;
         }
+
+    .articulo-nutricion{
+        margin: 40px ;
+        width: 100%;
         .nutricion-titulo{
             font-size: 25px;
             margin: 20px 0px;
@@ -718,20 +669,26 @@ h4{
             font-size: 16px;
             letter-spacing: 0.8px;
         }
-        .img-alimentacion{
-            width: 90%;
-            /* height: 450px; */
-            margin: 0px 50px;
+    }
+        
+    .img-alimentacion{
+        width: 90%;
+        margin: 0px 50px;
+    }
+        .icono-alimentacion{
+            margin-bottom: 20px;
+            width: 90px;
         }
-        .alimentos-evitar-titulo{
-            font-size: 25px;
-            text-align: center;
-            margin: 10px 0px;
-        }
-        .alimentos-evitar-texto{
-            font-size: 16px;
-            margin-top: 20px;
-        }
+
+    .alimentos-evitar-titulo{
+        font-size: 25px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .alimentos-evitar-texto{
+        font-size: 16px;
+        margin-top: 20px;
+    }
 
 //  ////////////////// MAIN - Entrenamiento ///////////////////////
 
@@ -739,7 +696,6 @@ h4{
             width: 100%;
             height: 80%;
             border: 1px solid transparent;
-            // background-color: rgb(201, 188, 157)
             .card-entrenamiento{
                 margin: 20px 80px;
                 padding: 10px;
@@ -787,7 +743,6 @@ h4{
         margin-top: auto;
         width: 100%;
         height: 162px;
-        // border: 1px solid black;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -828,7 +783,6 @@ h4{
     .navLinks {
         display: flex;
         flex-direction: row;
-        // flex-wrap: wrap;
         margin-left: 100px;  
     }
       
@@ -921,9 +875,6 @@ h4{
 
     .historia-desenlace{
     padding: 5px 18px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 6% 17% 15% 12% 11% 15% 17% 7%;
@@ -961,12 +912,13 @@ h4{
         flex-direction: row;
         justify-content: space-around;
         }
-
-        .articulo-nutricion{
-            /* border: thin solid black; */
-            margin: 40px ;
-            width: 100%;
+        .alimentacion-opciones-titulo{
+            margin-left: 0px;
         }
+
+    .articulo-nutricion{
+        margin: 40px ;
+        width: 100%;
         .nutricion-titulo{
             font-size: 25px;
             margin: 20px 0px;
@@ -975,16 +927,22 @@ h4{
             font-size: 16px;
             letter-spacing: 0.8px;
         }
+    }
+        
+
+    .icono-alimentacion{
+        margin-bottom: 20px;
+        width: 80px;
+    }
         .img-alimentacion{
             width: 90%;
-            /* height: 450px; */
             margin: 0px 50px;
         }
-        .alimentos-evitar-titulo{
-            font-size: 25px;
-            text-align: center;
-            margin: 10px 0px;
-        }
+    .alimentos-evitar-titulo{
+        font-size: 25px;
+        text-align: center;
+        margin: 10px 0px;
+    }
         .alimentos-evitar-texto{
             font-size: 16px;
             margin-top: 20px;
@@ -995,8 +953,7 @@ h4{
 #seccionSegundaEntrenamiento{
     width: 100%;
     height: 80%;
-    border: 1px solid transparent;
-    // background-color: rgb(201, 188, 157)
+    border: $border-boxes;
     .card-entrenamiento{
         margin: 20px 80px;
         padding: 10px;
@@ -1040,7 +997,6 @@ h4{
         margin-top: auto;
         width: 100%;
         height: 162px;
-        // border: 1px solid black;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1081,7 +1037,6 @@ li, a {
 .navLinks {
     display: flex;
     flex-direction: row;
-    // flex-wrap: wrap;
     margin-left: 15px;  
 }
   
@@ -1180,9 +1135,6 @@ li, a {
 
     .historia-desenlace{
         padding: 5px 18px;
-        /* margin: 0;
-        width: 100%;
-        height: 100vh; */
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         grid-template-rows: 4% 23% 13% 12% 9% 14% 18% 7%;
@@ -1213,30 +1165,37 @@ li, a {
             }
     
     //  ////////////////// MAIN - SALUD ///////////////////////
+    
+    .seccionSegundaSalud{
+        margin: 20px;
+    }
 
     .alimentacion-opciones{
         margin-top: 50px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        .icono-alimentacion{
+            margin-bottom: 20px;
+            width: 70px;
+        }
         }
 
-        .articulo-nutricion{
-            /* border: thin solid black; */
+    .articulo-nutricion{
             margin: 40px ;
             width: 100%;
-        }
-        .nutricion-titulo{
-            font-size: 23px;
-            margin: 20px 0px;
-        }
-        .nutricion-texto{
-            font-size: 15px;
-            letter-spacing: 0.8px;
-        }
+            .nutricion-titulo{
+                font-size: 23px;
+                margin: 20px 0px;
+            }
+            .nutricion-texto{
+                font-size: 15px;
+                letter-spacing: 0.8px;
+            }
+    }
+        
         .img-alimentacion{
             width: 90%;
-            /* height: 450px; */
             margin: 0px 50px;
         }   
         .alimentos-evitar-titulo{
@@ -1272,12 +1231,10 @@ li, a {
             
     }
     }
-
     textarea{
         width: 360px;
         height: 180px;
     }
-    
     iframe{
         width: 360px;
         height: 280px;
@@ -1288,7 +1245,6 @@ li, a {
         margin-top: auto;
         width: 100%;
         height: 162px;
-        // border: 1px solid black;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1296,43 +1252,35 @@ li, a {
         background-color: rgb(226, 219, 202);  
         h4{
             font-size: 15px;
-        }   
+        }  
+        .footerlcons{
+            display: block;
+            font-size: 14px;
+            text-align: center;    
         }
-    /* footer logo */
-.footerlcons{
-    display: block;
-    font-size: 14px;
-    text-align: center;    
-}
-.imgIconsDog{
-    width: 50px;
-    height: 50px;
-}
- 
-/* footer email */
-.footerEmail{
-    font-size: 14px;
-    text-align: center;
-    a{
-        font-size: 12px;
-    }    
-}
-
-/* footer redes */
-.footerRedes {
-    font-size: 15px;
-    text-align: center;
-    a{
-        display: inline-block;
-    }
-      
-
-}
-
-.imgLogoFace, .imgLogoInst, .imgLogoPint {
-    width: 30px;
-    height: 30px;
-}
+        .imgIconsDog{
+            width: 50px;
+            height: 50px;
+        }
+        .footerEmail{
+            font-size: 14px;
+            text-align: center;
+            a{
+                font-size: 12px;
+            }    
+        } 
+        .footerRedes {
+            font-size: 15px;
+            text-align: center;
+            a{
+                display: inline-block;
+            }
+        }
+        .imgLogoFace, .imgLogoInst, .imgLogoPint {
+            width: 30px;
+            height: 30px;
+        } 
+        }
     
 
 }

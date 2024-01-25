@@ -3,14 +3,11 @@
 #seccionPrincipalHistoria {
     width: 100%;
     height: auto;
-    /* border: 1px solid black; */
-    // background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(135,101,48,0.9948354341736695) 0%, rgba(211,203,184,1) 57%);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(135,101,48,0.99) 0%, rgba(229,230,218,1) 71%);
 }
 .historia-introduccion {
     width: 100%;
     height: 100vh;
-    //  border: 1px solid black; 
     background-color: rgb(217, 217, 217);
 }
 .hero-image-introduccion{
@@ -19,12 +16,7 @@
     background-position: center;
     background-size: cover;
     color: rgb(6, 6, 5);
-    background-repeat: no-repeat;
-    // transform: rotate(20deg 50deg);
-}
-.hero-image-desenlance{
-    /* background-color: rgb(201, 188, 157); */
-    // background-color: rgb(226, 219, 202);
+    background-repeat: no-repeat;   
 }
 
 .hero-image-introduccion div{
@@ -35,7 +27,6 @@
     align-items: center;
     background-color: rgba(229, 230, 218, 0.47);
     background-image: linear-gradient(to top,  rgba(229, 230, 218, 1) ,  rgba(229, 230, 218, 0.001) );
-    /* 0.75 del bg es la opacidad */
     text-align: center;
     
 }
@@ -44,40 +35,23 @@
     padding: 4px;
     color: #ff4321;
 }
-/* .hero-image h2:hover{
-    font-size: 50px;
-    transition: 1s;
-} */
+
 .hero-image-introduccion p{
     width: 92%;
     height: auto;
     font-size: 12px;
     margin: 4px 10px;
     font-weight: bold;
-    // letter-spacing: 0.3px;
 }
-/* .hero-image p:hover{
-    font-size: 31px;
-    transition: 0.1s;
-} */
 
 .historia-desarrollo {
     width: 100%;
     height: 100vh;
-    /* border: 1px solid black; */
-    // background-color: rgb(226, 219, 202);
-    /* background-image:url(../img/huella1.jpg);
-    background-position: center;
-    background-size: cover;
-    color: rgb(6, 6, 5);
-    background-repeat: no-repeat; */
 }
 .carousel-inner div img{
     width: 100%;
     height: 100vh;
     padding: 80px 20px;
-    
-   
 }
 
 

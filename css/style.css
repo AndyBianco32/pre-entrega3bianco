@@ -10,21 +10,10 @@ html {
   font-family: "Raleway", sans-serif;
 }
 
-/* body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} */
 /* ///////////ESTILOS DE HEADER/////////// */
 #header {
   width: 100%;
-  /* height: 630px; */
   min-height: 100vh;
-  /* border: 1px solid black; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center; */
 }
 
 .headerInicio {
@@ -137,14 +126,12 @@ li, a {
   align-items: center;
   text-align: center;
   margin-bottom: 0px;
-  /* margin-left: 400px;  */
 }
 
 /* /////////ESTILOS SECCION DEL HEADER///////////// */
 #portadaPrincipal {
   width: 100%;
   height: auto;
-  /* border: 1px solid black; */
 }
 
 .tituloPortadaInicio {
@@ -155,7 +142,6 @@ li, a {
 }
 
 .primerParrafoInicio {
-  /* border: 1px solid black; */
   height: 280px;
   width: 255px;
   margin-top: 20px;
@@ -173,7 +159,6 @@ li, a {
 }
 
 .primerParrafoRazas {
-  /* border: 1px solid black; */
   height: 280px;
   width: 250px;
   margin-top: 50px;
@@ -189,7 +174,6 @@ li, a {
 }
 
 .primerParrafoSalud {
-  /* border: 1px solid black; */
   height: 250px;
   width: 250px;
   margin-top: 70px;
@@ -206,7 +190,6 @@ li, a {
 }
 
 .primerParrafoEntrenamiento {
-  /* border: 1px solid black; */
   height: 240px;
   width: 270px;
   margin: 5px 15px;
@@ -223,7 +206,6 @@ li, a {
 }
 
 .primerParrafoCuriosidades {
-  /* border: 1px solid black; */
   height: 280px;
   width: 220px;
   margin-top: 50px;
@@ -236,7 +218,6 @@ li, a {
 #seccionPrincipalHistoria {
   width: 100%;
   height: auto;
-  /* border: 1px solid black; */
   background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgba(135, 101, 48, 0.99) 0%, rgb(229, 230, 218) 71%);
 }
 
@@ -255,10 +236,6 @@ li, a {
   background-repeat: no-repeat;
 }
 
-.hero-image-desenlance {
-  /* background-color: rgb(201, 188, 157); */
-}
-
 .hero-image-introduccion div {
   min-height: inherit;
   display: flex;
@@ -267,7 +244,6 @@ li, a {
   align-items: center;
   background-color: rgba(229, 230, 218, 0.47);
   background-image: linear-gradient(to top, rgb(229, 230, 218), rgba(229, 230, 218, 0.001));
-  /* 0.75 del bg es la opacidad */
   text-align: center;
 }
 
@@ -277,10 +253,6 @@ li, a {
   color: #ff4321;
 }
 
-/* .hero-image h2:hover{
-    font-size: 50px;
-    transition: 1s;
-} */
 .hero-image-introduccion p {
   width: 92%;
   height: auto;
@@ -289,19 +261,9 @@ li, a {
   font-weight: bold;
 }
 
-/* .hero-image p:hover{
-    font-size: 31px;
-    transition: 0.1s;
-} */
 .historia-desarrollo {
   width: 100%;
   height: 100vh;
-  /* border: 1px solid black; */
-  /* background-image:url(../img/huella1.jpg);
-  background-position: center;
-  background-size: cover;
-  color: rgb(6, 6, 5);
-  background-repeat: no-repeat; */
 }
 
 .carousel-inner div img {
@@ -462,7 +424,6 @@ li, a {
 .div-img-raza img {
   width: 280px;
   height: 200px;
-  /* border: thin solid black; */
 }
 
 .div-texto-raza1,
@@ -473,45 +434,37 @@ li, a {
 .div-texto-raza6,
 .div-texto-raza7 {
   width: 900px;
-  /* border: thin solid black; */
 }
 
 /* /////////////Estilos Main - Secciones y articulo Salud ////////////////*/
 #mainSalud {
   width: 100%;
   height: auto;
-  /* border: 1px solid black; */
   display: flex;
   flex-flow: column;
   background: linear-gradient(180deg, rgb(130, 151, 201) 0%, rgb(223, 231, 242) 49%, rgb(204, 169, 181) 100%);
   background-position: center;
   background-size: cover;
-  /* color: rgb(6, 6, 5); */
   background-repeat: no-repeat;
 }
 
 .seccionPrimeraSalud {
   height: 100%;
   width: 85%;
-  /* border: 1px solid black; */
   margin: 0;
   padding: 0;
-  /* background-color: rgb(217, 217, 217); */
 }
 
 .articulo-nutricion {
-  /* border: thin solid black; */
   margin: 40px;
   width: 80%;
 }
-
-.nutricion-titulo {
+.articulo-nutricion .nutricion-titulo {
   font-size: 20px;
   margin: 20px 0px;
   color: #ff4321;
 }
-
-.nutricion-texto {
+.articulo-nutricion .nutricion-texto {
   font-size: 14px;
   letter-spacing: 0.8px;
 }
@@ -519,23 +472,22 @@ li, a {
 .seccionSegundaSalud {
   height: 40%;
   width: 65%;
-  /* border: 1px solid black; */
-  /* background-color: rgb(201, 188, 157) */
 }
 
 .alimentacion-opciones-titulo {
   font-size: 20px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-left: 20px;
   color: #ff4321;
 }
 
 .alimentacion-opciones {
-  margin: 50px 50px;
+  margin: 50px 30px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .lista-opciones {
@@ -550,23 +502,20 @@ li, a {
 
 .icono-alimentacion {
   margin-bottom: 20px;
+  width: 50px;
 }
 
 .seccionTerceraSalud {
   height: 60%;
   width: 90%;
-  /* border: 1px solid black; */
-  /* background-color: rgb(255, 255, 255); */
 }
 
 .img-alimentacion {
   width: 90%;
-  /* height: 450px; */
   margin: 0px 20px;
 }
 
 .alimentos-evitar {
-  /* border: thin solid black; */
   margin: 30px 50px;
 }
 
@@ -696,7 +645,7 @@ li, a {
   gap: 30px;
 }
 .articuloCuriosidades .articuloCuriosidades-div {
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 20px;
   padding: 20px;
   width: 100%;
@@ -719,8 +668,7 @@ li, a {
 .articuloCuriosidades .articuloCuriosidades-img {
   width: 200px;
   height: 180px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-radius: 12px;
 }
 
 #seccionSegundaCuriosidades {
@@ -738,7 +686,7 @@ li, a {
 .asideCuriosidades {
   width: 80%;
   height: 90%;
-  margin-top: 85px;
+  margin-top: 70px;
   border: 1px solid transparent;
   padding: 20px;
   border-radius: 2%;
@@ -783,49 +731,6 @@ iframe {
   align-items: center;
 }
 
-.divRazas {
-  width: 45px;
-  height: 45px;
-  border: 1px solid black;
-  margin-left: 1250px;
-  margin-top: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.divSalud {
-  width: 45px;
-  height: 45px;
-  border: 1px solid black;
-  margin-left: 790px;
-  margin-top: 750px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.divEntrenamiento {
-  width: 45px;
-  height: 45px;
-  border: 1px solid black;
-  margin-left: 1250px;
-  margin-top: 940px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.divCuriosidades {
-  width: 45px;
-  height: 45px;
-  border: 1px solid black;
-  margin-left: 380px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* //////////////ESTILOS DEL FOOTER ///////////*/
 #footer {
   margin-top: auto;
@@ -833,8 +738,6 @@ iframe {
   height: auto;
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: space-around; */
   background-color: rgb(226, 219, 202);
 }
 #footer h4 {
@@ -907,18 +810,6 @@ iframe {
   .nav ul li a {
     font-size: 25px;
   }
-  /* .nav ul li a:hover {
-      font-size: 32px;
-      transition: 1s;
-      font-weight: bold;
-  }
-
-  .imgLogo {
-      height: 70px;
-      width: 70px;
-      border-radius: 100%;
-      margin-left: 25px;
-  } */
   .navLinks {
     display: flex;
     margin-left: 400px;
@@ -928,10 +819,8 @@ iframe {
     font-size: 32px;
     margin-top: 20px;
     margin-left: 40px;
-    /* color: black; */
   }
   .primerParrafoInicio {
-    /* border: 1px solid black; */
     height: 350px;
     width: 450px;
     margin-top: 30px;
@@ -945,7 +834,6 @@ iframe {
     font-size: 32px;
   }
   .primerParrafoRazas {
-    /* border: 1px solid black; */
     height: 350px;
     width: 400px;
     margin-top: 40px;
@@ -959,7 +847,6 @@ iframe {
     font-size: 32px;
   }
   .primerParrafoSalud {
-    /* border: 1px solid black; */
     height: 250px;
     width: 350px;
     margin-top: 50px;
@@ -973,7 +860,6 @@ iframe {
     font-size: 32px;
   }
   .primerParrafoEntrenamiento {
-    /* border: 1px solid black; */
     height: 280px;
     width: 350px;
     margin: 40px 55px;
@@ -986,7 +872,6 @@ iframe {
     font-size: 32px;
   }
   .primerParrafoCuriosidades {
-    /* border: 1px solid black; */
     height: 300px;
     width: 300px;
     margin-top: 50px;
@@ -998,10 +883,6 @@ iframe {
     font-size: 33px;
     padding: 10px;
   }
-  /* .hero-image h2:hover{
-  font-size: 50px;
-  transition: 1s;
-  } */
   .hero-image-introduccion p {
     width: 72%;
     font-size: 19px;
@@ -1010,10 +891,6 @@ iframe {
     font-weight: 500;
     letter-spacing: 1px;
   }
-  /* .hero-image p:hover{
-  font-size: 31px;
-  transition: 0.1s;
-  } */
   .carousel-inner div img {
     width: 100%;
     height: 100vh;
@@ -1038,17 +915,11 @@ iframe {
   }
   .historia-desenlace {
     padding: 55px 105px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 10% 20% 20% 20% 20% 10%;
     grid-template-areas: "header       header       header       header       header       header              header               header              header              colores    colores    colores" "gral         gral         gral         tamaño       tamaño       pelo                pelo                 pelo                pelo                colores    colores    colores" "gral         gral         gral         nombres      nombres      algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad algunasCuriosidades algunasCuriosidades  algunasCuriosidades algunasCuriosidades colores    colores    colores" "personalidad personalidad personalidad personalidad personalidad conviv              conviv               conviv              conviv              conviv     conviv     conviv" "footer-des   footer-des   footer-des   footer-des   footer-des   footer-des          footer-des           footer-des          footer-des          divInicio  divInicio  divInicio";
   }
-  /* .historia-desenlace > *{
-  border: thin solid #222;
-  } */
   .header {
     grid-area: header;
   }
@@ -1155,31 +1026,27 @@ iframe {
   #mainSalud {
     width: 100%;
     height: 1460px;
-    /* border: 1px solid black; */
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
-    /* background-image:url(../img/fondoMainSalud.jpg);
-    background-position: center;
-    background-size: cover; */
-    /* color: rgb(6, 6, 5); */
-    /* background-repeat: no-repeat; */
   }
   .seccionPrimeraSalud {
     height: 100%;
     width: 35%;
-    /* border: 1px solid black; */
     margin: 0;
     padding: 30px;
-    /* background-color: rgb(217, 217, 217); */
   }
-  .nutricion-titulo {
+  .seccionPrimeraSalud .nutricion-titulo {
     font-size: 26px;
     margin: 20px 0px;
   }
-  .nutricion-texto {
+  .seccionPrimeraSalud .nutricion-texto {
     font-size: 16px;
     letter-spacing: 0.7px;
+  }
+  .alimentacion-opciones-titulo {
+    font-size: 26px;
+    margin-left: 0px;
   }
   .alimentacion-opciones {
     margin-top: 50px;
@@ -1187,28 +1054,25 @@ iframe {
     flex-direction: row;
     justify-content: space-around;
   }
-  .alimentacion-opciones-titulo {
-    font-size: 26px;
-    /* text-align: center;
-    margin-top: 50px; */
+  .alimentacion-opciones .icono-alimentacion {
+    margin-bottom: 20px;
+    width: 90px;
   }
   .seccionTerceraSalud {
     height: 60%;
     width: 65%;
-    /* border: 1px solid black; */
-    /* background-color: rgb(255, 255, 255); */
   }
-  .img-alimentacion {
+  .seccionTerceraSalud .img-alimentacion {
     width: 90%;
-    /* height: 450px; */
     margin: 0px 40px;
   }
-  .alimentos-evitar-titulo {
+  .seccionTerceraSalud .alimentos-evitar-titulo {
     font-size: 26px;
     text-align: center;
-    margin: 10px 0px;
+    margin: 15px 0px;
+    padding-top: 10px;
   }
-  .alimentos-evitar-texto {
+  .seccionTerceraSalud .alimentos-evitar-texto {
     font-size: 16px;
     margin-top: 20px;
   }
@@ -1281,9 +1145,9 @@ iframe {
     gap: 20px;
   }
   .articuloCuriosidades {
-    width: 80%;
+    width: 90%;
     height: 40%;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
     padding: 20px;
@@ -1326,7 +1190,7 @@ iframe {
   .asideCuriosidades {
     width: 80%;
     height: 100%;
-    margin-top: 135px;
+    margin-top: 120px;
     border-radius: 2%;
     background-color: rgb(248, 246, 240);
     padding: 35px;
@@ -1464,9 +1328,6 @@ iframe {
   }
   .historia-desenlace {
     padding: 55px 105px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 10% 20% 20% 20% 20% 10%;
@@ -1483,23 +1344,28 @@ iframe {
     flex-direction: row;
     justify-content: space-around;
   }
+  .alimentacion-opciones-titulo {
+    margin-left: 0px;
+  }
   .articulo-nutricion {
-    /* border: thin solid black; */
     margin: 40px;
     width: 100%;
   }
-  .nutricion-titulo {
+  .articulo-nutricion .nutricion-titulo {
     font-size: 25px;
     margin: 20px 0px;
   }
-  .nutricion-texto {
+  .articulo-nutricion .nutricion-texto {
     font-size: 16px;
     letter-spacing: 0.8px;
   }
   .img-alimentacion {
     width: 90%;
-    /* height: 450px; */
     margin: 0px 50px;
+  }
+  .icono-alimentacion {
+    margin-bottom: 20px;
+    width: 90px;
   }
   .alimentos-evitar-titulo {
     font-size: 25px;
@@ -1661,9 +1527,6 @@ iframe {
   }
   .historia-desenlace {
     padding: 5px 18px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 6% 17% 15% 12% 11% 15% 17% 7%;
@@ -1688,22 +1551,27 @@ iframe {
     flex-direction: row;
     justify-content: space-around;
   }
+  .alimentacion-opciones-titulo {
+    margin-left: 0px;
+  }
   .articulo-nutricion {
-    /* border: thin solid black; */
     margin: 40px;
     width: 100%;
   }
-  .nutricion-titulo {
+  .articulo-nutricion .nutricion-titulo {
     font-size: 25px;
     margin: 20px 0px;
   }
-  .nutricion-texto {
+  .articulo-nutricion .nutricion-texto {
     font-size: 16px;
     letter-spacing: 0.8px;
   }
+  .icono-alimentacion {
+    margin-bottom: 20px;
+    width: 80px;
+  }
   .img-alimentacion {
     width: 90%;
-    /* height: 450px; */
     margin: 0px 50px;
   }
   .alimentos-evitar-titulo {
@@ -1872,9 +1740,6 @@ iframe {
   }
   .historia-desenlace {
     padding: 5px 18px;
-    /* margin: 0;
-    width: 100%;
-    height: 100vh; */
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 4% 23% 13% 12% 9% 14% 18% 7%;
@@ -1893,28 +1758,33 @@ iframe {
     background-size: contain;
     background-repeat: no-repeat;
   }
+  .seccionSegundaSalud {
+    margin: 20px;
+  }
   .alimentacion-opciones {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+  .alimentacion-opciones .icono-alimentacion {
+    margin-bottom: 20px;
+    width: 70px;
+  }
   .articulo-nutricion {
-    /* border: thin solid black; */
     margin: 40px;
     width: 100%;
   }
-  .nutricion-titulo {
+  .articulo-nutricion .nutricion-titulo {
     font-size: 23px;
     margin: 20px 0px;
   }
-  .nutricion-texto {
+  .articulo-nutricion .nutricion-texto {
     font-size: 15px;
     letter-spacing: 0.8px;
   }
   .img-alimentacion {
     width: 90%;
-    /* height: 450px; */
     margin: 0px 50px;
   }
   .alimentos-evitar-titulo {
@@ -1962,33 +1832,30 @@ iframe {
   #footer h4 {
     font-size: 15px;
   }
-  /* footer logo */
-  .footerlcons {
+  #footer .footerlcons {
     display: block;
     font-size: 14px;
     text-align: center;
   }
-  .imgIconsDog {
+  #footer .imgIconsDog {
     width: 50px;
     height: 50px;
   }
-  /* footer email */
-  .footerEmail {
+  #footer .footerEmail {
     font-size: 14px;
     text-align: center;
   }
-  .footerEmail a {
+  #footer .footerEmail a {
     font-size: 12px;
   }
-  /* footer redes */
-  .footerRedes {
+  #footer .footerRedes {
     font-size: 15px;
     text-align: center;
   }
-  .footerRedes a {
+  #footer .footerRedes a {
     display: inline-block;
   }
-  .imgLogoFace, .imgLogoInst, .imgLogoPint {
+  #footer .imgLogoFace, #footer .imgLogoInst, #footer .imgLogoPint {
     width: 30px;
     height: 30px;
   }

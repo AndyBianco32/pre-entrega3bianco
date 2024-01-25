@@ -3,7 +3,6 @@
 #seccionPrincipalRaza{
     width: 100%;
     height: auto;
-    // border: 1px solid black;
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(75,87,96,1) 0%, rgba(228,225,220,1) 78%);
 }
 
@@ -11,7 +10,6 @@
     width: 95%;
     height: auto;
     border-bottom: 1px solid black;
-    // margin: 10px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -33,7 +31,6 @@
 .div-img-raza img {
     width: 280px;
     height: 200px;
-    /* border: thin solid black; */
 }
 .div-texto-raza1,
 .div-texto-raza2,
@@ -43,28 +40,4 @@
 .div-texto-raza6,
 .div-texto-raza7{
     width: 900px;
-    /* border: thin solid black; */
-
 }
-
-// .raza1{
-//     background-color: rgb(217, 217, 217);
-// }
-// .raza2{
-//     background-color: rgb(201, 188, 157)
-// }
-// .raza3{
-//     background-color: rgb(217, 217, 217);
-// }
-// .raza4{
-//     background-color: rgb(254, 253, 252);
-// }
-// .raza5{
-//     background-color: rgb(217, 217, 217);
-// }
-// .raza6{
-//     background-color: rgb(242, 241, 241);
-// }
-// .raza7{
-//     background-color: rgb(217, 217, 217);
-// }
